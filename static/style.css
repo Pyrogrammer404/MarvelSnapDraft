@@ -1,398 +1,476 @@
-/* =====================
-   Marvel Snap Draft - Global Theme
-   ===================== */
-
-:root {
-  --bg-color: #0c0f2b;
-  --accent-blue: #2d6df6;
-  --accent-purple: #a86df2;
-  --text-light: #f2f2f2;
-  --text-muted: #b0b3c1;
-  --card-bg: #161b3d;
-  --card-border: #2d6df6;
-  --success: #30d158;
-  --danger: #ff453a;
-}
-
-/* Global Layout */
 body {
-  font-family: "Poppins", sans-serif;
-  background: radial-gradient(circle at top, #1c1f4a 0%, #0c0f2b 100%);
-  color: var(--text-light);
   margin: 0;
-  padding: 0;
+  background: radial-gradient(circle at top, #081830, #000014);
+  color: #eaf6ff;
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .container {
-  max-width: 1100px;
   width: 90%;
-  margin: 20px auto;
+  max-width: 900px;
   text-align: center;
 }
 
 .title {
-  font-size: 2.4rem;
-  margin-bottom: 10px;
-  color: var(--accent-blue);
-  text-shadow: 0 0 15px rgba(45, 109, 246, 0.6);
+  font-size: 2.5rem;
+  color: #61dafb;
+  text-shadow: 0 0 20px #00aaff;
 }
 
 .subtitle {
   font-size: 1.1rem;
-  color: var(--text-muted);
-  margin-bottom: 25px;
-}
-
-/* =====================
-   Main Menu
-   ===================== */
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.menu button {
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
-  border: none;
-  color: #fff;
-  padding: 15px 30px;
-  border-radius: 12px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  font-weight: bold;
-  width: 250px;
-  transition: 0.3s;
-  box-shadow: 0 0 10px rgba(45, 109, 246, 0.4);
-}
-
-.menu button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px rgba(168, 109, 242, 0.7);
-}
-
-/* =====================
-   Ban Section
-   ===================== */
-
-.ban-section {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 12px;
   margin-bottom: 30px;
+  color: #b0dfff;
 }
 
-.ban-section input {
-  width: 60%;
-  padding: 8px;
+.menu button,
+.feedback-form button,
+.start-btn,
+.restart-btn {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
   border: none;
-  border-radius: 6px;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
   font-size: 1rem;
-}
-
-.ban-section button {
-  background: var(--accent-blue);
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  padding: 8px 15px;
-  border-radius: 6px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: transform 0.2s ease, background 0.3s;
 }
 
-.ban-section button:hover {
-  background: var(--accent-purple);
+button:hover {
+  transform: scale(1.08);
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
 }
 
-/* =====================
-   Card Grid
-   ===================== */
-
+/* === CARD GRID LAYOUT === */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
   justify-items: center;
+  margin-top: 2rem;
 }
 
 .card {
-  background: var(--card-bg);
-  border: 2px solid var(--card-border);
+  background: rgba(0, 10, 40, 0.9);
+  border: 2px solid #0077ff;
   border-radius: 12px;
-  padding: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
   text-align: center;
-  width: 100%;
+  color: white;
+  width: 220px;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(45, 109, 246, 0.6);
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 162, 255, 0.5);
 }
 
 .card img {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
   border-radius: 8px;
 }
 
 .card h3 {
-  margin: 10px 0 5px 0;
-  font-size: 1.2rem;
+  margin-top: 10px;
+  font-size: 1.1rem;
 }
 
-.card p {
+.card-stats {
+  color: #5ca9ff;
   font-size: 0.9rem;
-  color: var(--text-muted);
+  margin-top: 4px;
 }
 
+.card-desc {
+  font-size: 0.85rem;
+  color: #ddd;
+  margin-top: 6px;
+  min-height: 40px;
+  line-height: 1.3;
+}
+
+/* === BUTTONS === */
 .card-buttons {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
 }
 
-.pick-btn {
-  background-color: var(--success);
-  color: white;
+.card-buttons button {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
   border: none;
-  border-radius: 8px;
-  padding: 8px 10px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.pick-btn:hover {
-  background-color: #28b84e;
-}
-
-.dont-btn {
-  background-color: var(--danger);
   color: white;
-  border: none;
+  font-weight: 600;
   border-radius: 8px;
-  padding: 8px 10px;
+  padding: 6px 12px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
-.dont-btn:hover {
-  background-color: #e33d2f;
+.card-buttons button:hover {
+  background: linear-gradient(135deg, #0096ff, #33ccff);
+  transform: scale(1.05);
 }
 
-/* =====================
-   Deck Section
-   ===================== */
+.restart-btn {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
 
+.restart-btn:hover {
+  background: linear-gradient(135deg, #0096ff, #33ccff);
+  transform: scale(1.05);
+}
+
+
+
+
+textarea {
+  width: 100%;
+  height: 120px;
+  background: #001a33;
+  color: white;
+  border: 1px solid #00c6ff;
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+}
+
+.feedback-form textarea {
+  margin-bottom: 15px;
+}
+
+#bannedCards span {
+  background: #002a5e;
+  border-radius: 8px;
+  padding: 5px 8px;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#bannedCards button {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  color: #ff8080;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #001a33;
+  border: 2px solid #00aaff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 10, 30, 0.85);
+  color: #9dd6ff;
+  font-size: 0.95rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.3px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 50;
+  backdrop-filter: blur(6px);
+}
+
+.footer strong {
+  color: #ffffff;
+}
+
+.footer .heart {
+  color: #ff4d4d;
+  font-size: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+/* Feedback Page */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.feedback-form textarea {
+  width: 70%;
+  min-height: 150px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #338fff;
+  background: rgba(0, 20, 40, 0.8);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  resize: vertical;
+  outline: none;
+}
+
+.feedback-form textarea:focus {
+  border-color: #5ca9ff;
+  box-shadow: 0 0 10px rgba(92, 169, 255, 0.5);
+}
+
+.feedback-form button[type="submit"] {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.feedback-form button[type="submit"]:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #00aaff, #007bff);
+}
+
+.back-btn {
+  margin-top: 20px;
+  background: none;
+  border: 1px solid #5ca9ff;
+  color: #5ca9ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #5ca9ff;
+  color: #fff;
+}
+
+/* Footer from before */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 10, 30, 0.85);
+  color: #9dd6ff;
+  font-size: 0.95rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.3px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 50;
+  backdrop-filter: blur(6px);
+}
+
+.footer strong {
+  color: #ffffff;
+}
+
+.footer .heart {
+  color: #ff4d4d;
+  font-size: 1rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+#banInput {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(0, 15, 40, 0.9);
+  color: #fff;
+  outline: none;
+}
+
+#banInput:focus {
+  border-color: #00b4ff;
+  box-shadow: 0 0 10px rgba(0, 180, 255, 0.5);
+}
+
+/* Banned cards display */
+#bannedCards {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+#bannedCards span {
+  background: rgba(0, 50, 100, 0.6);
+  color: #9dd6ff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #007bff;
+  font-size: 0.9rem;
+}
+
+#bannedCards button {
+  background: none;
+  border: none;
+  color: #ff5555;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* === YOUR DECK SO FAR SECTION === */
 .deck-section {
-  margin-top: 25px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .deck-section h3 {
-  color: var(--accent-purple);
-  margin-bottom: 10px;
+  color: #61dafb;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
 }
 
 .deck-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
 .deck-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--accent-purple);
-  border-radius: 8px;
-  padding: 5px;
+  background: rgba(0, 20, 50, 0.8);
+  border: 1px solid #00aaff;
+  border-radius: 10px;
+  padding: 6px;
   width: 120px;
   text-align: center;
-  transition: 0.3s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
 }
 
 .deck-card:hover {
-  background: rgba(168, 109, 242, 0.2);
   transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
 }
 
 .deck-card img {
   width: 100%;
   height: 150px;
-  border-radius: 6px;
+  border-radius: 8px;
   object-fit: cover;
 }
 
 .deck-card span {
   display: block;
-  font-weight: bold;
-  color: var(--text-light);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #eaf6ff;
+  margin-top: 6px;
 }
 
 .deck-card small {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: #9dd6ff;
+  display: block;
+  margin-top: 2px;
 }
 
-/* =====================
-   Modal
-   ===================== */
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(12, 15, 43, 0.9);
+/* === FINAL DECK IN MODAL === */
+#finalDeck {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  z-index: 999;
+  gap: 12px;
+  margin: 20px 0;
 }
 
-.modal.hidden {
-  display: none;
+#finalDeck .deck-card {
+  width: 110px;
+  background: rgba(0, 15, 40, 0.8);
+  border: 1px solid #007bff;
 }
 
-.modal-content {
-  background: var(--card-bg);
-  padding: 30px;
-  border-radius: 12px;
-  text-align: center;
-  width: 85%;
-  max-width: 700px;
-  box-shadow: 0 0 25px rgba(45, 109, 246, 0.4);
+#finalDeck .deck-card img {
+  height: 140px;
 }
 
-.modal-content h2 {
-  color: var(--accent-blue);
-  margin-bottom: 15px;
-}
-
-.modal-buttons {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.modal-buttons button {
-  padding: 10px 20px;
-  border-radius: 8px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.modal-buttons button:first-child {
-  background: var(--accent-blue);
-  color: white;
-}
-
-.modal-buttons button:first-child:hover {
-  background: var(--accent-purple);
-}
-
-.modal-buttons button:last-child {
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text-light);
-}
-
-.modal-buttons button:last-child:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-#deckText {
-  width: 100%;
-  height: 80px;
-  background: #0b0e28;
-  border: 1px solid var(--accent-blue);
-  color: var(--text-light);
-  border-radius: 8px;
-  margin-top: 15px;
-  padding: 10px;
-}
-
-/* =====================
-   Restart Button
-   ===================== */
-
-.restart-btn {
-  margin-top: 25px;
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 25px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.restart-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(45, 109, 246, 0.6);
-}
-
-/* =====================
-   Footer
-   ===================== */
-
-.footer {
-  margin-top: auto;
-  padding: 15px 0;
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  width: 100%;
-}
-
-.footer .heart {
-  color: #ff4b5c;
-  animation: pulse 1.2s infinite;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.9; }
-  50% { transform: scale(1.3); opacity: 1; }
-  100% { transform: scale(1); opacity: 0.9; }
-}
-
-/* =====================
-   Animations
-   ===================== */
-
-.hidden { display: none; }
-
-.fade-in {
-  animation: fadeIn 0.6s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* =====================
-   Mobile tweaks
-   ===================== */
-
+/* === Responsive Deck Layout === */
 @media (max-width: 768px) {
-  .card img { height: 250px; }
-  .deck-card { width: 100px; }
-  .deck-card img { height: 120px; }
-  .menu button { width: 200px; font-size: 1rem; }
+  .deck-card {
+    width: 90px;
+  }
+
+  .deck-card img {
+    height: 120px;
+  }
+
+  .deck-section h3 {
+    font-size: 1.1rem;
+  }
 }
+
