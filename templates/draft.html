@@ -155,13 +155,17 @@
     }
 
     function pickCard(defId) {
-      const card = allCards.find(c => c.defId === defId);
-      if (card) {
-        chosenCards.push(card);
-        updateDeckView();
-        nextRound();
-      }
+  const card = allCards.find(c => c.defId === defId);
+  if (card) {
+    chosenCards.push(card);
+    updateDeckView();
+    if (chosenCards.length >= 12) {
+      finishDraft();
+    } else {
+      nextRound();
     }
+  }
+}
 
     function shuffleCard(defId) {
       const container = document.getElementById("cardChoices");
