@@ -106,14 +106,15 @@ def history():
 @app.route("/api/deckcode", methods=["POST"])
 def generate_deck():
     data = request.get_json()
-    cards = data.get("cards", [])
-    if not cards:
-        return jsonify({"error": "No cards provided"}), 400
+    defIds = data.get("cards", [])
+    print(f"📦 Received deck request: {len(defIds)} cards → {defIds}")
 
-    # map card names to defIds
-    defIds = [c["defId"] for c in all_cards if c["name"] in cards]
-    deck_code = generate_deck_code(defIds)
-    return jsonify({"deck_code": deck_code})
+    try:
+        deck_code = generate_deck_code(defIds)
+        return jsonify({"deck_code": deck_code, "count": len(defIds)})
+    except Exception as e:
+        print(f"❌ Deck generation failed: {e}")
+        return jsonify({"error": str(e)}), 500
 
 @app.route("/feedback")
 def feedback():
