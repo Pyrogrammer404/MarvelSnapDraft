@@ -3,26 +3,25 @@ import base64
 
 def generate_deck_code(defids):
     """
-    Takes a list of up to 12 card defIds (strings) and generates a Marvel Snap deck code
-    compatible with DeckCodes.chat long format.
+    Takes up to 12 card defIds (strings) and generates a Marvel Snap deck code.
     """
 
-    # If fewer than 12 cards, pad with dummy placeholders for safety
-    if len(defids) < 12:
-        print(f"⚠️ Warning: only received {len(defids)} cards. Padding with placeholders.")
-        defids += ["Unknown"] * (12 - len(defids))
+    clean_ids = []
+    for cid in defids:
+        # Normalize
+        cid = str(cid).strip().replace(" ", "").replace("_", "")
+        if cid:
+            clean_ids.append(cid)
 
-    # Trim if somehow more than 12
-    defids = defids[:12]
+    if len(clean_ids) < 12:
+        print(f"⚠️ Warning: only {len(clean_ids)} cards received. Padding.")
+        clean_ids += ["Unknown"] * (12 - len(clean_ids))
 
-    # Build JSON object
-    deck_obj = {"Cards": [{"CardDefId": cid} for cid in defids]}
+    clean_ids = clean_ids[:12]
 
-    # Convert to compact JSON string
+    deck_obj = {"Cards": [{"CardDefId": cid} for cid in clean_ids]}
     deck_str = json.dumps(deck_obj, separators=(",", ":"))
-
-    # Encode to Base64
     deck_code = base64.b64encode(deck_str.encode("utf-8")).decode("utf-8")
 
-    print("✅ Generated deck code successfully.")
+    print(f"✅ Generated deck code for {len(clean_ids)} cards.")
     return deck_code
