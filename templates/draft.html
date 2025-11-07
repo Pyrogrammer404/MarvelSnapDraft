@@ -210,7 +210,9 @@
     const res = await fetch("/api/deckcode", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ cards: chosenCards.map(c => c.defId) })
+      body: JSON.stringify({
+  cards: chosenCards.map(c => c.defId || c.name.replace(/\s+/g, ""))
+})
     });
 
     const data = await res.json();
