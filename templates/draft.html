@@ -202,29 +202,39 @@
     }
 
     async function finishDraft() {
-      updateDeckView();
+  updateDeckView();
 
-      const res = await fetch("/api/deckcode", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ cards: chosenCards.map(c => c.defId) })
-      });
+  document.getElementById("cardChoices").innerHTML = "<p>⏳ Generating deck code...</p>";
 
-      const data = await res.json();
-      const deckCode = data.deck_code || "Error generating code";
+  try {
+    const res = await fetch("/api/deckcode", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ cards: chosenCards.map(c => c.defId) })
+    });
 
-      const finalDeck = document.getElementById("finalDeck");
-      finalDeck.innerHTML = chosenCards.map(c => `
-        <div class="deck-card">
-          <img src="https://snapjson.untapped.gg/art/render/framebreak/common/256/${c.defId}.webp">
-          <span>${c.name}</span>
-          <small>Cost ${c.cost ?? "?"} | Power ${c.power ?? "?"}</small>
-        </div>
-      `).join("");
+    const data = await res.json();
+    const deckCode = data.deck_code || "Error generating code";
 
-      document.getElementById("deckText").value = deckCode;
-      document.getElementById("draftModal").classList.remove("hidden");
-    }
+    // Render final deck visually
+    const finalDeck = document.getElementById("finalDeck");
+    finalDeck.innerHTML = chosenCards.map(c => `
+      <div class="deck-card">
+        <img src="https://snapjson.untapped.gg/art/render/framebreak/common/256/${c.defId}.webp"
+             onerror="this.src='https://snapjson.untapped.gg/art/render/framebreak/common/256/Unknown.webp'">
+        <span>${c.name}</span>
+        <small>Cost ${c.cost ?? "?"} | Power ${c.power ?? "?"}</small>
+      </div>
+    `).join("");
+
+    document.getElementById("deckText").value = deckCode;
+    document.getElementById("draftModal").classList.remove("hidden");
+  } catch (err) {
+    console.error("❌ Deck generation failed:", err);
+    alert("Error generating deck code. Please try again!");
+  }
+}
+
 
     function copyDeck() {
       navigator.clipboard.writeText(document.getElementById("deckText").value);
