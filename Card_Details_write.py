@@ -41,10 +41,9 @@ def fetch_cards():
 def main():
     cards = fetch_cards()
     print(f"✅ Saved {len(cards)} collectible cards with images.")
-
-    with open("cards_enriched.json", "w", encoding="utf-8") as f:
+    json_path = os.path.join("static", "data", "cards_enriched.json")
+    with open(json_path, "w", encoding="utf-8") as f:
         json.dump(cards, f, indent=2, ensure_ascii=False)
-
 
 if __name__ == "__main__":
     main()
