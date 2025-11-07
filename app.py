@@ -17,6 +17,13 @@ def update_cards_json():
         print("⚠️ Could not update cards_enriched.json:", e)
 threading.Thread(target=update_cards_json, daemon=True).start()
 
+FORUM_FILE = os.path.join("data", "forum_threads.json")
+# Ensure data folder exists
+os.makedirs("data", exist_ok=True)
+if not os.path.exists(FORUM_FILE):
+    with open(FORUM_FILE, "w") as f:
+        json.dump([], f)
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
@@ -132,7 +139,54 @@ def api_feedback():
 
     print("📝 Feedback saved:", fb)
     return jsonify({"success": True}), 200
+@app.route("/forum")
+def forum():
+    with open(FORUM_FILE, "r") as f:
+        threads = json.load(f)
+    return render_template("forum.html", threads=threads)
 
+@app.route("/api/forum/new", methods=["POST"])
+def add_thread():
+    data = request.get_json()
+    author = data.get("author", "Anonymous")
+    message = data.get("message", "").strip()
+    if not message:
+        return jsonify({"error": "Empty message"}), 400
+
+    with open(FORUM_FILE, "r+") as f:
+        threads = json.load(f)
+        new_id = (threads[-1]["id"] + 1) if threads else 1
+        new_thread = {"id": new_id, "author": author, "message": message, "replies": []}
+        threads.append(new_thread)
+        f.seek(0)
+        json.dump(threads, f, indent=2)
+        f.truncate()
+
+    return jsonify({"success": True, "thread": new_thread})
+
+@app.route("/api/forum/reply", methods=["POST"])
+def reply_thread():
+    data = request.get_json()
+    thread_id = data.get("thread_id")
+    author = data.get("author", "Anonymous")
+    message = data.get("message", "").strip()
+
+    if not message or not thread_id:
+        return jsonify({"error": "Invalid input"}), 400
+
+    with open(FORUM_FILE, "r+") as f:
+        threads = json.load(f)
+        for t in threads:
+            if t["id"] == thread_id:
+                t["replies"].append({"author": author, "message": message})
+                break
+        else:
+            return jsonify({"error": "Thread not found"}), 404
+        f.seek(0)
+        json.dump(threads, f, indent=2)
+        f.truncate()
+
+    return jsonify({"success": True})
 
 
 if __name__ == "__main__":
