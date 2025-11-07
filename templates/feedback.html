@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback / Bugs — Marvel Snap Draft</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title">Feedback / Bug Report</h1>
+    <p class="subtitle">Share any issues or ideas for improving Marvel Snap Draft!</p>
+
+    <form id="feedbackForm" class="feedback-form">
+      <textarea id="feedbackText"
+        name="feedback"
+        placeholder="Describe your feedback or bug here..."
+        required></textarea>
+
+      <button type="submit">Send Feedback</button>
+    </form>
+
+    <p id="msg" class="msg hidden"></p>
+
+    <button class="back-btn" onclick="window.location.href='{{ url_for('main_menu') }}'">
+      ⬅ Back to Menu
+    </button>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Marvel Snap Draft — built with <span class="heart">❤️</span> by <strong>Shivang Parnami</strong></p>
+  </footer>
+
+  <script>
+    // send feedback via fetch to Flask
+    document.getElementById("feedbackForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const feedback = document.getElementById("feedbackText").value.trim();
+      const msg = document.getElementById("msg");
+
+      const res = await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ feedback })
+      });
+
+
+
+      if (res.ok) {
+        msg.textContent = "✅ Thank you! Your feedback has been saved.";
+        msg.classList.remove("hidden");
+        msg.style.color = "#5cffb0";
+        e.target.reset();
+      } else {
+        msg.textContent = "❌ Something went wrong while sending.";
+        msg.classList.remove("hidden");
+        msg.style.color = "#ff6b6b";
+      }
+    });
+  </script>
+</body>
+</html>

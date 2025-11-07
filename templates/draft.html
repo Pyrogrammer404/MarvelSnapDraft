@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marvel Snap Draft</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="container fade-in">
+    <h1 class="title">Draft Your Deck</h1>
+
+    <!-- Ban Section -->
+    <div id="ban-section" class="ban-section">
+      <h2>Ban or Restrict Cards</h2>
+
+      <input type="text" id="banInput" placeholder="Enter card name..." list="cardSuggestions" autocomplete="off" />
+      <datalist id="cardSuggestions"></datalist>
+
+      <button onclick="addBan()">Ban</button>
+      <div id="bannedCards"></div>
+
+      <button class="start-btn" onclick="startDraft()">Start Draft</button>
+    </div>
+
+    <!-- Draft Section -->
+    <div id="draft-section" class="draft-section hidden">
+      <h2 class="section-header">Pick a Card</h2>
+      <div id="cardChoices" class="card-grid"></div>
+      <button id="restartDraft" onclick="restartDraft()" class="restart-btn hidden">Restart Draft</button>
+    </div>
+  </div>
+
+  <!-- Draft Complete Modal -->
+  <div id="draftModal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Draft Complete!</h2>
+      <textarea id="deckText" readonly></textarea>
+      <div class="modal-buttons">
+        <button onclick="copyDeck()">Copy Deck</button>
+        <button onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Marvel Snap Draft — built with <span class="heart">❤️</span> by <strong>Shivang Parnami</strong></p>
+  </footer>
+
+  <script>
+    console.log("✅ draft.js loaded");
+
+    // --- Globals ---
+    let allCards = [];
+    let banned = JSON.parse(localStorage.getItem("bannedCards") || "[]");
+    let chosenCards = [];
+
+    // --- Load all collectible cards from JSON ---
+    fetch("/static/cards_enriched.json")
+      .then(res => res.json())
+      .then(data => {
+        allCards = data.filter(c => c.collectible);
+        fillSuggestions();
+        showBans();
+        console.log("✅ Loaded", allCards.length, "collectible cards");
+      })
+      .catch(err => console.error("❌ Error loading cards:", err));
+
+    // --- Fill autocomplete suggestions ---
+    function fillSuggestions() {
+      const dataList = document.getElementById("cardSuggestions");
+      dataList.innerHTML = "";
+      allCards.forEach(c => {
+        const option = document.createElement("option");
+        option.value = c.name;
+        dataList.appendChild(option);
+      });
+    }
+
+    // --- Show current bans ---
+    function showBans() {
+      const div = document.getElementById("bannedCards");
+      div.innerHTML = banned.length
+        ? banned.map(c => `<span>${c}<button onclick="unban('${c}')">✕</button></span>`).join("")
+        : "<p>No banned cards</p>";
+    }
+
+    // --- Add a ban with validation ---
+    function addBan() {
+      const input = document.getElementById("banInput");
+      const cardName = input.value.trim();
+      if (!cardName) return;
+
+      const validNames = allCards.map(c => c.name);
+      if (!validNames.includes(cardName)) {
+        alert("⚠️ Invalid card name! Please select a valid Marvel Snap card.");
+        input.value = "";
+        return;
+      }
+
+      if (!banned.includes(cardName)) {
+        banned.push(cardName);
+        localStorage.setItem("bannedCards", JSON.stringify(banned));
+        showBans();
+      }
+
+      input.value = "";
+    }
+
+    // --- Unban ---
+    function unban(card) {
+      banned = banned.filter(c => c !== card);
+      localStorage.setItem("bannedCards", JSON.stringify(banned));
+      showBans();
+    }
+
+    // --- Start Draft ---
+    function startDraft() {
+      console.log("🚀 Starting new draft");
+      chosenCards = [];
+      localStorage.removeItem("chosenCards");
+      document.getElementById("ban-section").classList.add("hidden");
+      document.getElementById("draft-section").classList.remove("hidden");
+      nextRound();
+    }
+
+    // --- Generate Next Set of Choices ---
+    function nextRound() {
+      if (chosenCards.length >= 12) {
+        finishDraft();
+        return;
+      }
+
+      const available = allCards.filter(c =>
+        !chosenCards.includes(c.name) && !banned.includes(c.name)
+      );
+
+      if (available.length === 0) {
+        alert("No available cards left! Please unban some cards.");
+        restartDraft();
+        return;
+      }
+
+      const randomChoices = shuffle(available).slice(0, 4);
+      console.log("🎴 Showing choices:", randomChoices.map(c => c.name));
+
+      const container = document.getElementById("cardChoices");
+      container.innerHTML = randomChoices.map(card => `
+        <div class="card">
+          <img src="https://snapjson.untapped.gg/art/render/framebreak/common/256/${card.defId}.webp"
+               onerror="this.src='https://snapjson.untapped.gg/art/render/framebreak/common/256/Unknown.webp'">
+          <h3>${card.name}</h3>
+          <p class="card-stats">Cost: ${card.cost ?? "-"} | Power: ${card.power ?? "-"}</p>
+          <p class="card-desc">${(card.description || "No ability").replace(/<\/?[^>]+(>|$)/g, "")}</p>
+          <div class="card-buttons">
+            <button onclick="pickCard('${card.name}')">Pick</button>
+            <button onclick="shuffleCard('${card.name}')">Don't have</button>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    // --- Pick a Card ---
+    function pickCard(cardName) {
+      chosenCards.push(cardName);
+      nextRound();
+    }
+
+    // --- Replace One Card ---
+    function shuffleCard(cardToReplace) {
+      const available = allCards.filter(c =>
+        !chosenCards.includes(c.name) && !banned.includes(c.name)
+      );
+      if (available.length === 0) return;
+      const newCard = available[Math.floor(Math.random() * available.length)];
+
+      const container = document.getElementById("cardChoices");
+      const cardDivs = Array.from(container.children);
+      cardDivs.forEach(div => {
+        if (div.innerHTML.includes(cardToReplace)) {
+          div.innerHTML = `
+            <img src="https://snapjson.untapped.gg/art/render/framebreak/common/256/${newCard.defId}.webp"
+                 onerror="this.src='https://snapjson.untapped.gg/art/render/framebreak/common/256/Unknown.webp'">
+            <h3>${newCard.name}</h3>
+            <p class="card-stats">Cost: ${newCard.cost ?? "-"} | Power: ${newCard.power ?? "-"}</p>
+            <p class="card-desc">${(newCard.description || "No ability").replace(/<\/?[^>]+(>|$)/g, "")}</p>
+            <div class="card-buttons">
+              <button onclick="pickCard('${newCard.name}')">Pick</button>
+              <button onclick="shuffleCard('${newCard.name}')">Don't have</button>
+            </div>
+          `;
+        }
+      });
+    }
+
+    // --- Finish Draft ---
+    async function finishDraft() {
+      console.log("🏁 Draft complete with:", chosenCards);
+      const res = await fetch("/api/deckcode", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ cards: chosenCards })
+      });
+
+      const data = await res.json();
+      const deckCode = data.deck_code || "Error generating deck code.";
+
+      document.getElementById("deckText").value = deckCode;
+      document.getElementById("draftModal").classList.remove("hidden");
+      document.getElementById("restartDraft").classList.remove("hidden");
+    }
+
+    // --- Modal & Misc ---
+    function closeModal() {
+      document.getElementById("draftModal").classList.add("hidden");
+    }
+
+    function copyDeck() {
+      navigator.clipboard.writeText(document.getElementById("deckText").value);
+      alert("Deck copied to clipboard!");
+    }
+
+    function restartDraft() {
+      location.reload();
+    }
+
+    function shuffle(arr) {
+      return arr.sort(() => Math.random() - 0.5);
+    }
+  </script>
+</body>
+</html>

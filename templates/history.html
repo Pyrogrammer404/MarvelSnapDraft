@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deck History</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title">Your Deck History</h1>
+
+    {% if history and history|length > 0 %}
+      <div class="history-list">
+        {% for deck in history %}
+          <div class="history-card">
+            <h2>Deck {{ loop.index }}</h2>
+            {% if deck.deck_code %}
+              <p><strong>Deck Code:</strong> {{ deck.deck_code }}</p>
+            {% endif %}
+            <p><strong>Cards:</strong></p>
+            <ul>
+              {% for card in deck.cards %}
+                <li>{{ card.name }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No decks yet!</p>
+    {% endif %}
+
+    <button onclick="window.location.href='{{ url_for('main_menu') }}'">Back to Menu</button>
+  </div>
+</body>
+<footer class="footer">
+  <p>© 2025 Marvel Snap Draft — built with <span class="heart">❤️</span> by <strong>Shivang Parnami</strong></p>
+</footer>
+</html>

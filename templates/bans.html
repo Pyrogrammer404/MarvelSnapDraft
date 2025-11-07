@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bans / Restrictions</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Bans / Restrictions</h1>
+  </header>
+
+  <main>
+    <form action="/save_bans" method="POST">
+      <label for="bans">Ban Cards:</label>
+      <input list="cards" id="bans" name="bans">
+      <datalist id="cards">
+        {% for card in all_cards %}
+          <option value="{{ card['name'] }}">
+        {% endfor %}
+      </datalist>
+      <button type="submit">Save Bans</button>
+    </form>
+    <button onclick="location.href='/draft'">Start Draft</button>
+  </main>
+<footer class="footer">
+  <p>© 2025 Marvel Snap Draft — built with <span class="heart">❤️</span> by <strong>Shivang Parnami</strong></p>
+</footer>
+</body>
+</html>

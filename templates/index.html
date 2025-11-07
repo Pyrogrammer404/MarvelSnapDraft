@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marvel Snap Draft</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title">Marvel Snap Draft</h1>
+    <p class="subtitle">Build your dream deck. Ban cards. Compete your way.</p>
+
+    <div class="menu">
+      <button onclick="location.href='{{ url_for('draft') }}'">Create a Deck</button>
+      <button onclick="location.href='{{ url_for('history') }}'">History</button>
+      <button onclick="location.href='{{ url_for('feedback') }}'">Feedback / Bugs</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+  <p>© 2025 Marvel Snap Draft — built with <span class="heart">❤️</span> by <strong>Shivang Parnami</strong></p>
+</footer>
+</body>
+</html>
