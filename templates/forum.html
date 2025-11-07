@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marvel Snap Forum</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title">💬 Marvel Snap Draft Forum</h1>
+    <p class="subtitle">Discuss decks, ideas, and updates with Shivang!</p>
+
+    <!-- New Thread Form -->
+    <div class="feedback-form">
+      <textarea id="newMessage" placeholder="Start a discussion..."></textarea>
+      <input id="newAuthor" placeholder="Your name (optional)" />
+      <button onclick="postThread()">Post</button>
+    </div>
+
+    <!-- Forum Threads -->
+    <div id="threads" class="forum-container">
+      {% for t in threads|reverse %}
+      <div class="thread-card">
+        <p><strong>{{ t.author }}</strong>: {{ t.message }}</p>
+        <div class="replies">
+          {% for r in t.replies %}
+          <p class="reply"><strong>{{ r.author }}</strong>: {{ r.message }}</p>
+          {% endfor %}
+        </div>
+
+        <div class="reply-box">
+          <input placeholder="Your name" id="author-{{t.id}}">
+          <input placeholder="Reply..." id="reply-{{t.id}}">
+          <button onclick="sendReply({{t.id}})">Reply</button>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <a href="/" class="back-btn">← Back to Home</a>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Marvel Snap Draft — built with ❤️ by <strong>Shivang Parnami</strong></p>
+  </footer>
+
+  <script>
+    async function postThread() {
+      const message = document.getElementById("newMessage").value.trim();
+      const author = document.getElementById("newAuthor").value.trim() || "Anonymous";
+      if (!message) return alert("Please write something!");
+
+      const res = await fetch("/api/forum/new", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ author, message })
+      });
+      location.reload();
+    }
+
+    async function sendReply(id) {
+      const author = document.getElementById(`author-${id}`).value.trim() || "Anonymous";
+      const message = document.getElementById(`reply-${id}`).value.trim();
+      if (!message) return;
+
+      await fetch("/api/forum/reply", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ thread_id: id, author, message })
+      });
+      location.reload();
+    }
+  </script>
+</body>
+</html>
