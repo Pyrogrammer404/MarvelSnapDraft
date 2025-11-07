@@ -624,3 +624,19 @@ textarea {
   color: white;
 }
 
+/* Fix Back Button Overlap */
+.forum-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 100px; /* prevents footer overlap */
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+  z-index: 5;
+}
+
