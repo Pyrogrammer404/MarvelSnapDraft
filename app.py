@@ -25,7 +25,8 @@ app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR)
 app.secret_key = "supersecretkey"
 
 # Load cards
-with open("cards_enriched.json", "r", encoding="utf-8") as f:
+json_path = os.path.join("static", "data", "cards_enriched.json")
+with open(json_path, "r", encoding="utf-8") as f:
     all_cards = json.load(f)
 
 
