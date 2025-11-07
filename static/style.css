@@ -474,3 +474,52 @@ textarea {
   }
 }
 
+/* === DECK GRID (for current + final deck) === */
+.deck-section {
+  margin-top: 2rem;
+}
+
+.deck-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.deck-card {
+  background: rgba(0, 10, 40, 0.9);
+  border: 2px solid #0077ff;
+  border-radius: 12px;
+  padding: 0.8rem;
+  color: white;
+  width: 160px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.deck-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 162, 255, 0.4);
+}
+
+.deck-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.deck-card span {
+  display: block;
+  font-weight: 600;
+  margin-top: 6px;
+  font-size: 0.95rem;
+}
+
+.deck-card small {
+  color: #8cd4ff;
+  font-size: 0.8rem;
+}
+
+
