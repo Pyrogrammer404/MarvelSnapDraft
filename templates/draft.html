@@ -57,7 +57,7 @@
     let chosenCards = [];
 
     // --- Load all collectible cards from JSON ---
-fetch("/static/data/cards_enriched.json")
+fetch("/static/cards_enriched.json")
   .then(res => res.json())
       .then(data => {
         allCards = data.filter(c => c.collectible);
