@@ -1,0 +1,3665 @@
+[
+  {
+    "defId": "Abomination",
+    "name": "Abomination",
+    "cost": 5,
+    "power": 9,
+    "description": "<i>\"Foolish rabble! You are beneath me!\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Abomination.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AbsorbingMan",
+    "name": "Absorbing Man",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> If the last card you played has an <b>On Reveal</b>, copy its text. <i>(if able)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AbsorbingMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AdamWarlock",
+    "name": "Adam Warlock",
+    "cost": 2,
+    "power": 0,
+    "description": "<b>End of Turn:</b> Draw a card if you're winning here. Otherwise, +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AdamWarlock.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Aero",
+    "name": "Aero",
+    "cost": 5,
+    "power": 9,
+    "description": "<b>On Reveal:</b> The last card your opponent played moves to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Aero.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Agamotto",
+    "name": "Agamotto",
+    "cost": 5,
+    "power": 10,
+    "description": "<b>Game Start:</b> Shuffle 4 Ancient Arcana into your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Agamotto.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AgathaHarkness",
+    "name": "Agatha Harkness",
+    "cost": 6,
+    "power": 12,
+    "description": "<b>Game Start:</b> Draw Agatha. She controls your cards on even turns.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AgathaHarkness.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Agent13",
+    "name": "Agent 13",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add a random card to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Agent13.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AgentCoulson",
+    "name": "Agent Coulson",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Add a random 4-Cost and 5-Cost card to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AgentCoulson.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AgentVenom",
+    "name": "Agent Venom",
+    "cost": 2,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Set the Power of all cards in your deck to 3.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AgentVenom.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Agony",
+    "name": "Agony",
+    "cost": 1,
+    "power": 3,
+    "description": "After you play a card here, merge this into it.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Agony.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AirWalker",
+    "name": "Air-Walker",
+    "cost": 3,
+    "power": 3,
+    "description": "When this is destroyed, replace it with a 4-Cost card from your hand or deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AirWalker.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Ajax",
+    "name": "Ajax",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>Ongoing:</b> +1 Power for each card in play afflicted with negative Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Ajax.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Alioth",
+    "name": "Alioth",
+    "cost": 6,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Remove the text from all unrevealed enemy characters here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Alioth.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AmericaChavez",
+    "name": "America Chavez",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Give the top card of your deck +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AmericaChavez.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Angela",
+    "name": "Angela",
+    "cost": 2,
+    "power": 3,
+    "description": "After you play a card here,\n+1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Angela.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Angel",
+    "name": "Angel",
+    "cost": 2,
+    "power": 3,
+    "description": "When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Angel.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Annihilus",
+    "name": "Annihilus",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Your cards with Power below 0 switch sides. Destroy\nthose that can't.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Annihilus.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AntiVenom",
+    "name": "Anti-Venom",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Set the Cost and Power of your deck's top card to 0.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AntiVenom.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AntMan",
+    "name": "Ant Man",
+    "cost": 1,
+    "power": 1,
+    "description": "<b>Ongoing:</b> If your side of this location is full, +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AntMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Apocalypse",
+    "name": "Apocalypse",
+    "cost": 6,
+    "power": 8,
+    "description": "When you discard this, put it back with +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Apocalypse.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Arana",
+    "name": "Araña",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>Activate:</b> After you play your next card, give it +1 Power and move it to the right.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Arana.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Ares",
+    "name": "Ares",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Compare the Power of the top 3 cards of both decks. If your total is higher, +6 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Ares.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Arishem",
+    "name": "Arishem",
+    "cost": 7,
+    "power": 7,
+    "description": "<b>Game Start:</b> Shuffle 12 new cards into your deck. On turn 3, get +1 Max Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Arishem.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Armor",
+    "name": "Armor",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Cards here can't\nbe destroyed.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Armor.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ArnimZola",
+    "name": "Arnim Zola",
+    "cost": 6,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Destroy one of your\nother cards here to copy it\nat the other locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ArnimZola.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AstralProjection",
+    "name": "Astral Projection",
+    "cost": 3,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Copy the text of an <b>On Reveal</b> card in your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AstralProjection.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Attuma",
+    "name": "Attuma",
+    "cost": 4,
+    "power": 10,
+    "description": "<b>End of Turn:</b> Destroy one of your cards here with less Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Attuma.webp",
+    "collectible": true
+  },
+  {
+    "defId": "AwesomeAndy",
+    "name": "Awesome Andy",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Activate:</b> Give one of your cards at each other location +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/AwesomeAndy.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BaronMordo",
+    "name": "Baron Mordo",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> The top card of your opponent's deck costs 6 until turn 6.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BaronMordo.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BaronZemo",
+    "name": "Baron Zemo",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Recruit a card that costs the least from your opponent's deck to your side of this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BaronZemo.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Bast",
+    "name": "Bast",
+    "cost": 1,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Set the Power of all cards in your hand to 3.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Bast.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Bastion",
+    "name": "Bastion",
+    "cost": 4,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Add copies of your other cards here to your hand. Set their Costs to 2 and Power to 3.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Bastion.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Batroc",
+    "name": "Batroc the Leaper",
+    "cost": 1,
+    "power": 2,
+    "description": "When a card moves, follow it to gain +2 Power. <i>(once per turn)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Batroc.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Beast",
+    "name": "Beast",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Return your other cards here to your hand. They cost 1 less next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Beast.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BetaRayBill",
+    "name": "Beta Ray Bill",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Shuffle Stormbreaker into your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BetaRayBill.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Bishop",
+    "name": "Bishop",
+    "cost": 3,
+    "power": 2,
+    "description": "After you play a card, this gains +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Bishop.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlackBolt",
+    "name": "Black Bolt",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Discard the card that costs the least from your\nopponent's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlackBolt.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlackCat",
+    "name": "Black Cat",
+    "cost": 1,
+    "power": 4,
+    "description": "<b>End of Turn:</b> Discard this from your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlackCat.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlackKnight",
+    "name": "Black Knight",
+    "cost": 1,
+    "power": 2,
+    "description": "After you discard a card, add the Ebony Blade to your hand with that card's Power. <i>(once per game)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlackKnight.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlackPanther",
+    "name": "Black Panther",
+    "cost": 5,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Double this\ncard's Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlackPanther.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlackSwan",
+    "name": "Black Swan",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Activate:</b> Until the end of next turn, your 1-Cost cards cost 0.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlackSwan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlackWidow",
+    "name": "Black Widow",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Activate:</b> Add a Widow's Bite to your opponent's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlackWidow.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Blade",
+    "name": "Blade",
+    "cost": 1,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Discard the rightmost card from your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Blade.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Blink",
+    "name": "Blink",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Swap the last card you played with a card that costs more from your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Blink.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Blob",
+    "name": "Blob",
+    "cost": 6,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Merge cards from your deck into this until it gains 13 or more Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Blob.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BlueMarvel",
+    "name": "Blue Marvel",
+    "cost": 5,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Your other cards have +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BlueMarvel.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Brood",
+    "name": "Brood",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add 2 Broodlings here with the same Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Brood.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BruceBanner",
+    "name": "Bruce Banner",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>End of Turn:</b> If you have unspent Energy, 33% chance to HULK OUT!",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BruceBanner.webp",
+    "collectible": true
+  },
+  {
+    "defId": "BuckyBarnes",
+    "name": "Bucky Barnes",
+    "cost": 2,
+    "power": 1,
+    "description": "When this is destroyed, replace it with the Winter Soldier.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/BuckyBarnes.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Bullseye",
+    "name": "Bullseye",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>Activate:</b> Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Bullseye.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cable",
+    "name": "Cable",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Draw a card from your opponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cable.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Caiera",
+    "name": "Caiera",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>Ongoing:</b> Your 1 and 6-Cost cards can't be destroyed.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Caiera.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cannonball",
+    "name": "Cannonball",
+    "cost": 5,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Move the highest-Power enemy card here away. If you can't, destroy it with a Rock.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cannonball.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CaptainAmerica",
+    "name": "Captain America",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Your other <b>Ongoing</b> cards here have +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CaptainAmerica.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CaptainCarter",
+    "name": "Captain Carter",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Add this card's Power to your back-row cards here.\n<i>(can't add to itself)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CaptainCarter.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CaptainMarvel",
+    "name": "Captain Marvel",
+    "cost": 4,
+    "power": 5,
+    "description": "At the end of the game, move to a location that wins you the\ngame. (If possible)",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CaptainMarvel.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Carnage",
+    "name": "Carnage",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Destroy your other cards here. +2 Power for each destroyed.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Carnage.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CassandraNova",
+    "name": "Cassandra Nova",
+    "cost": 3,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Steal 1 Power from each card in your opponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CassandraNova.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cerebro",
+    "name": "Cerebro",
+    "cost": 3,
+    "power": 0,
+    "description": "<b>Ongoing:</b> Your highest-Power cards have +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cerebro.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Chameleon",
+    "name": "Chameleon",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Copy the text of another card here you revealed this turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Chameleon.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Clea",
+    "name": "Clea",
+    "cost": 1,
+    "power": 2,
+    "description": "When this permanently gains Power, add Flames of the Faltine to your hand. <i>(if in hand or in play)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Clea.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cloak",
+    "name": "Cloak",
+    "cost": 2,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Next turn, both players can move cards to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cloak.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cobra",
+    "name": "Cobra",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Activate:</b> Destroy an enemy created card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cobra.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ColleenWing",
+    "name": "Colleen Wing",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Discard the card that costs the least from your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ColleenWing.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ColonelAmerica",
+    "name": "Colonel America",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Your other cards here have +1 Power for each turn you've discarded a card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ColonelAmerica.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Colossus",
+    "name": "Colossus",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Can't be destroyed, moved, or have its Power reduced.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Colossus.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Copycat",
+    "name": "Copycat",
+    "cost": 3,
+    "power": 5,
+    "description": "When you draw this, copy the text from the bottom card of your\nopponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Copycat.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CorvusGlaive",
+    "name": "Corvus Glaive",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Discard 2 cards from your hand to get +1 Max Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CorvusGlaive.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CosmicGhostRider",
+    "name": "Cosmic Ghost Rider",
+    "cost": 5,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Remove the text from front-row enemy cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CosmicGhostRider.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cosmo",
+    "name": "Cosmo",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> <b>On Reveal</b> abilities won't happen here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cosmo.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Crossbones",
+    "name": "Crossbones",
+    "cost": 4,
+    "power": 10,
+    "description": "You can only play this at locations where you are winning.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Crossbones.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Crystal",
+    "name": "Crystal",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Each player\ndraws a card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Crystal.webp",
+    "collectible": true
+  },
+  {
+    "defId": "CullObsidian",
+    "name": "Cull Obsidian",
+    "cost": 4,
+    "power": 10,
+    "description": "You can only play this where you have a 1-Cost card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/CullObsidian.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Cyclops",
+    "name": "Cyclops",
+    "cost": 3,
+    "power": 4,
+    "description": "<i>\"Let's move, X-Men.\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Cyclops.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Dagger",
+    "name": "Dagger",
+    "cost": 2,
+    "power": 2,
+    "description": "When this moves to a location,\n+2 Power for each enemy card there.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Dagger.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Daken",
+    "name": "Daken",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Add the Muramasa Shard to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Daken.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Danger",
+    "name": "Danger",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Activate:</b> Destroy an enemy card here with less Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Danger.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Daredevil",
+    "name": "Daredevil",
+    "cost": 2,
+    "power": 3,
+    "description": "On turn 5, you get to see your opponent's plays before you\nmake your own.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Daredevil.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Darkhawk",
+    "name": "Darkhawk",
+    "cost": 5,
+    "power": 3,
+    "description": "<b>Ongoing:</b> +2 Power for each card in your opponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Darkhawk.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Dazzler",
+    "name": "Dazzler",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Ongoing:</b> +2 Power for each location that's full on your side.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Dazzler.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Deadpool",
+    "name": "Deadpool",
+    "cost": 1,
+    "power": 1,
+    "description": "When this is destroyed, return it to your hand with double the Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Deadpool.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Death",
+    "name": "Death",
+    "cost": 8,
+    "power": 12,
+    "description": "Costs 1 less for each card destroyed this game.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Death.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Deathlok",
+    "name": "Deathlok",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Destroy your\nother cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Deathlok.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Debrii",
+    "name": "Debrii",
+    "cost": 3,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Add a Rock to each other location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Debrii.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Destroyer",
+    "name": "Destroyer",
+    "cost": 6,
+    "power": 18,
+    "description": "<b>On Reveal:</b> Destroy your cards at other locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Destroyer.webp",
+    "collectible": true
+  },
+  {
+    "defId": "DevilDinosaur",
+    "name": "Devil Dinosaur",
+    "cost": 5,
+    "power": 4,
+    "description": "<b>Ongoing:</b> +2 Power for each card in your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/DevilDinosaur.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Diamondback",
+    "name": "Diamondback",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Enemy cards here afflicted with negative Power have an additional -2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Diamondback.webp",
+    "collectible": true
+  },
+  {
+    "defId": "DoctorOctopus",
+    "name": "Doctor Octopus",
+    "cost": 4,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Pull the lowest-Power card from your opponent's hand to their side of this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/DoctorOctopus.webp",
+    "collectible": true
+  },
+  {
+    "defId": "DoctorStrange",
+    "name": "Doctor Strange",
+    "cost": 2,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Move your highest-Power card(s) to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/DoctorStrange.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Domino",
+    "name": "Domino",
+    "cost": 2,
+    "power": 4,
+    "description": "You always draw this card on turn 2, and not before.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Domino.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Doom2099",
+    "name": "Doctor Doom 2099",
+    "cost": 4,
+    "power": 4,
+    "description": "<b>End of Turn:</b> Add a DoomBot 2099 to a random location if you played <i>(exactly)</i> 1 card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Doom2099.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Dormammu",
+    "name": "Dormammu",
+    "cost": 7,
+    "power": 12,
+    "description": "<b>Game Start:</b> Begin a Summoning Ritual. <i>(Add step 1 to hand.)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Dormammu.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Dracula",
+    "name": "Dracula",
+    "cost": 4,
+    "power": 1,
+    "description": "At the end of the game, discard a card from your hand to gain its Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Dracula.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Drax",
+    "name": "Drax",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Drax.webp",
+    "collectible": true
+  },
+  {
+    "defId": "DrDoom",
+    "name": "Doctor Doom",
+    "cost": 6,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Add a 5-Power DoomBot to each other location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/DrDoom.webp",
+    "collectible": true
+  },
+  {
+    "defId": "EbonyMaw",
+    "name": "Ebony Maw",
+    "cost": 1,
+    "power": 7,
+    "description": "You can't play this after turn 3.\n<b>Ongoing:</b> You can't play cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/EbonyMaw.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Echo",
+    "name": "Echo",
+    "cost": 1,
+    "power": 2,
+    "description": "After your opponent plays an <b>Ongoing</b> card here, remove its abilities.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Echo.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Electro",
+    "name": "Electro",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> +1 Max Energy. <b>Ongoing:</b> You can only play\n1 card a turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Electro.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Elektra",
+    "name": "Elektra",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Destroy an enemy 1-Cost card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Elektra.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Elixir",
+    "name": "Elixir",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> One of your cards destroyed last turn gets revived here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Elixir.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ElsaBloodstone",
+    "name": "Elsa Bloodstone",
+    "cost": 3,
+    "power": 4,
+    "description": "Each card you play to fill your side of a location gains +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ElsaBloodstone.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Enchantress",
+    "name": "Enchantress",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Enchantress.webp",
+    "collectible": true
+  },
+  {
+    "defId": "EsmeCuckoo",
+    "name": "Esme Cuckoo",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Copy a card from your deck into your hand. Set its Cost to 3 and Power to 4.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/EsmeCuckoo.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Eson",
+    "name": "Eson",
+    "cost": 6,
+    "power": 10,
+    "description": "<b>End of Turn:</b> Put a created card from your hand here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Eson.webp",
+    "collectible": true
+  },
+  {
+    "defId": "EzekielSims",
+    "name": "Ezekiel Sims",
+    "cost": 2,
+    "power": 2,
+    "description": "After you play a card with higher Power here, give this +2 Power and move this to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/EzekielSims.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Falcon",
+    "name": "Falcon",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Return your 1-Cost cards to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Falcon.webp",
+    "collectible": true
+  },
+  {
+    "defId": "FallenOne",
+    "name": "The Fallen One",
+    "cost": 5,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Set your Max Energy equal to this card's Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/FallenOne.webp",
+    "collectible": true
+  },
+  {
+    "defId": "FanFei",
+    "name": "Fan Fei",
+    "cost": 4,
+    "power": 4,
+    "description": "<b>Activate:</b> Give your other cards here +1 Power and move them to the right.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/FanFei.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Fantasticar",
+    "name": "Fantasticar",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>Activate:</b> Give your <b>End of Turn</b> cards +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Fantasticar.webp",
+    "collectible": true
+  },
+  {
+    "defId": "FenrisWolf",
+    "name": "Fenris Wolf",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>Activate:</b> Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/FenrisWolf.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Firehair",
+    "name": "Firehair",
+    "cost": 2,
+    "power": 3,
+    "description": "When one of your cards is destroyed, this uses that card’s <b>On Reveal</b>.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Firehair.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Firelord",
+    "name": "Firelord",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Revive one of your discarded or destroyed\n3-Cost cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Firelord.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Forge",
+    "name": "Forge",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Give the next card you play +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Forge.webp",
+    "collectible": true
+  },
+  {
+    "defId": "FrankieRaye",
+    "name": "Nova Frankie Raye",
+    "cost": 2,
+    "power": 3,
+    "description": "After the next time you play a\n6-Cost card, double this card's Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/FrankieRaye.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Frigga",
+    "name": "Frigga",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Add a copy of the last card you played to your hand. <i>(if able)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Frigga.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Galacta",
+    "name": "Galacta",
+    "cost": 4,
+    "power": 6,
+    "description": "Each turn, the first card you play at another location reveals\nwith +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Galacta.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Galactus",
+    "name": "Galactus",
+    "cost": 6,
+    "power": 6,
+    "description": "<b>On Reveal:</b> If you're winning this location and this is your only card here, destroy all other locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Galactus.webp",
+    "collectible": true
+  },
+  {
+    "defId": "GalactusFirstSteps",
+    "name": "Galactus First Steps",
+    "cost": 6,
+    "power": 12,
+    "description": "My Herald is the next character I see you play.\n<b>End of Turn:</b> +2 Power if you're winning my Herald's location. <i>(if in hand or in play)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/GalactusFirstSteps.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gambit",
+    "name": "Gambit",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Discard a card from your hand to destroy a random enemy card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gambit.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gamora",
+    "name": "Gamora",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gamora.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Ghost",
+    "name": "Ghost",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Remove the abilities from all <b>End of Turn</b> cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Ghost.webp",
+    "collectible": true
+  },
+  {
+    "defId": "GhostRider",
+    "name": "Ghost Rider",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Bring back one of your discarded cards to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/GhostRider.webp",
+    "collectible": true
+  },
+  {
+    "defId": "GhostSpider",
+    "name": "Ghost-Spider",
+    "cost": 1,
+    "power": 3,
+    "description": "<b>On Reveal:</b> The last card you played moves here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/GhostSpider.webp",
+    "collectible": true
+  },
+  {
+    "defId": "GhostTheFirstRider",
+    "name": "The First Ghost Rider",
+    "cost": 2,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Discard the lowest-Power card from your hand. Remove that card's Power from this.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/GhostTheFirstRider.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Giganto",
+    "name": "Giganto",
+    "cost": 6,
+    "power": 16,
+    "description": "You can only play this at the left location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Giganto.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gilgamesh",
+    "name": "Gilgamesh",
+    "cost": 5,
+    "power": 9,
+    "description": "<b>On Reveal:</b> +1 Power for each of your other cards in play with increased Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gilgamesh.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gladiator",
+    "name": "Gladiator",
+    "cost": 3,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gladiator.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Goliath",
+    "name": "Goliath",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>Ongoing:</b> +1 Power for each other <b>Ongoing</b> card you have in play.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Goliath.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Goose",
+    "name": "Goose",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Nobody can play cards that cost 4, 5, or 6 here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Goose.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gorgon",
+    "name": "Gorgon",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Your opponent's created cards cost 1 more. <i>(maximum 6)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gorgon.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gorr",
+    "name": "Gorr the God Butcher",
+    "cost": 6,
+    "power": -1,
+    "description": "<b>Ongoing:</b> +2 Power for EACH <b>On Reveal</b> card in play.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gorr.webp",
+    "collectible": true
+  },
+  {
+    "defId": "GrandMaster",
+    "name": "Grand Master",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Move one of your other <b>On Reveal</b> cards here to the middle location. Its ability happens again.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/GrandMaster.webp",
+    "collectible": true
+  },
+  {
+    "defId": "GreenGoblin",
+    "name": "Green Goblin",
+    "cost": 3,
+    "power": -4,
+    "description": "<b>On Reveal:</b> Switch sides.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/GreenGoblin.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Groot",
+    "name": "Groot",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Groot.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Gwenpool",
+    "name": "Gwenpool",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Pick a random character in your hand 3 times. Give +2 Power each time.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Gwenpool.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Havok",
+    "name": "Havok",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>End of Turn:</b> You lose 1 Max Energy and this gains +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Havok.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hawkeye",
+    "name": "Hawkeye",
+    "cost": 1,
+    "power": 1,
+    "description": "<b>On Reveal:</b> If you play a card at this location next turn, +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hawkeye.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hazmat",
+    "name": "Hazmat",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Afflict all other cards with -1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hazmat.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Headpool",
+    "name": "Headpool",
+    "cost": 1,
+    "power": 1,
+    "description": "When this is destroyed, return it to your hand, then give all cards in your hand +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Headpool.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Heimdall",
+    "name": "Heimdall",
+    "cost": 6,
+    "power": 10,
+    "description": "<b>On Reveal:</b> Move your other cards one location to the left.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Heimdall.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hela",
+    "name": "Hela",
+    "cost": 6,
+    "power": 6,
+    "description": "<b>On Reveal:</b> For each different Cost among them, resurrect a card you discarded to a random location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hela.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Helicarrier",
+    "name": "Helicarrier",
+    "cost": 6,
+    "power": 10,
+    "description": "When you discard this, fill your hand with random cards.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Helicarrier.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hellcow",
+    "name": "Hellcow",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Activate:</b> Discard a card from your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hellcow.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hellion",
+    "name": "Hellion",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Next turn, you can move cards to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hellion.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Herbie",
+    "name": "H.E.R.B.I.E.",
+    "cost": 2,
+    "power": 3,
+    "description": "Each turn this is in play, swap to a new <b>Activate</b> ability until one is used.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Herbie.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hercules",
+    "name": "Hercules",
+    "cost": 3,
+    "power": 5,
+    "description": "The first time another one of your cards moves here each turn, move it to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hercules.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HighEvolutionary",
+    "name": "High Evolutionary",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>Game Start:</b> Unlock the potential of your cards with no abilities.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HighEvolutionary.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HitMonkey",
+    "name": "Hit-Monkey",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Gain +2 Power for each other card you played this turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HitMonkey.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hobgoblin",
+    "name": "Hobgoblin",
+    "cost": 5,
+    "power": -8,
+    "description": "<b>On Reveal:</b> Switch sides.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hobgoblin.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hood",
+    "name": "The Hood",
+    "cost": 1,
+    "power": -3,
+    "description": "<b>On Reveal:</b> Add a Demon to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hood.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HopeSummers",
+    "name": "Hope Summers",
+    "cost": 3,
+    "power": 4,
+    "description": "After you play a card here, you get +1 Energy next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HopeSummers.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HowardTheDuck",
+    "name": "Howard the Duck",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Tap this to see the top card of your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HowardTheDuck.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hulkbuster",
+    "name": "Hulkbuster",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Merge this into one of your cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hulkbuster.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hulk",
+    "name": "Hulk",
+    "cost": 6,
+    "power": 12,
+    "description": "<i>\"HULK SMASH!\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hulk.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Hulkling",
+    "name": "Emperor Hulkling",
+    "cost": 6,
+    "power": 12,
+    "description": "<b>Game Start:</b> Copy the text of a random 6-Cost card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Hulkling.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HumanTorch",
+    "name": "Human Torch",
+    "cost": 3,
+    "power": 3,
+    "description": "When this moves, double\nits Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HumanTorch.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HumanTorchFirstSteps",
+    "name": "Human Torch First Steps",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>End of Turn:</b> +1 Power. Once per game, if your side here is full, double this card’s Power instead.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HumanTorchFirstSteps.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HydraBob",
+    "name": "Hydra Bob",
+    "cost": 1,
+    "power": 4,
+    "description": "<b>End of Turn:</b> This moves if\na player Snapped.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HydraBob.webp",
+    "collectible": true
+  },
+  {
+    "defId": "HydraStomper",
+    "name": "Hydra Stomper",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> +1 Power for each time one of your cards moved this game.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/HydraStomper.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Iceman",
+    "name": "Iceman",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Give a card in your opponent's hand +1 Cost.\n<i>(maximum 6)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Iceman.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Infinaut",
+    "name": "The Infinaut",
+    "cost": 6,
+    "power": 20,
+    "description": "If you played a card last turn, you can't play this.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Infinaut.webp",
+    "collectible": true
+  },
+  {
+    "defId": "InfinityUltron",
+    "name": "Infinity Ultron",
+    "cost": 5,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Add 2 of Ultron's Stones to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/InfinityUltron.webp",
+    "collectible": true
+  },
+  {
+    "defId": "InvisibleWoman",
+    "name": "Invisible Woman",
+    "cost": 2,
+    "power": 4,
+    "description": "<b>Ongoing:</b> Cards you play here are not revealed until the game ends.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/InvisibleWoman.webp",
+    "collectible": true
+  },
+  {
+    "defId": "InvisibleWomanFirstSteps",
+    "name": "Invisible Woman First Steps",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Activate:</b> This turn, your <b>End of Turn</b> abilities happen twice.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/InvisibleWomanFirstSteps.webp",
+    "collectible": true
+  },
+  {
+    "defId": "IronFist",
+    "name": "Iron Fist",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> After you play your next card, move it one location to the left.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/IronFist.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Ironheart",
+    "name": "Ironheart",
+    "cost": 3,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Give 2 of your other cards +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Ironheart.webp",
+    "collectible": true
+  },
+  {
+    "defId": "IronLad",
+    "name": "Iron Lad",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Copy the text of your deck's top card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/IronLad.webp",
+    "collectible": true
+  },
+  {
+    "defId": "IronMan",
+    "name": "Iron Man",
+    "cost": 5,
+    "power": 0,
+    "description": "<b>Ongoing:</b> Your total Power\nis doubled here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/IronMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "IronPatriot",
+    "name": "Iron Patriot",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Add a random 4, 5, or\n6-Cost card to your hand. If you’re winning here after next turn, give it -3 Cost.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/IronPatriot.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JaneFoster",
+    "name": "Jane Foster Mighty Thor",
+    "cost": 5,
+    "power": 9,
+    "description": "<b>On Reveal:</b> Draw all cards that cost 0 from your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JaneFoster.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JeanGrey",
+    "name": "Jean Grey",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>Ongoing:</b> Players must play their first card here each turn. <i>(if possible)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JeanGrey.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JeffTheBabyLandShark",
+    "name": "Jeff the Baby Land Shark",
+    "cost": 2,
+    "power": 3,
+    "description": "You can move this once. Nothing can stop you from moving or playing this to any location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JeffTheBabyLandShark.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JenniferKale",
+    "name": "Jennifer Kale",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Activate:</b> Next turn, you get +1 Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JenniferKale.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JessicaJones",
+    "name": "Jessica Jones",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> If you don't play a card at this location next turn, +5 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JessicaJones.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JimHammond",
+    "name": "Jim Hammond Human Torch",
+    "cost": 1,
+    "power": 2,
+    "description": "At the start of each turn, +1 Power for each bonus Energy you have.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JimHammond.webp",
+    "collectible": true
+  },
+  {
+    "defId": "JoaquinTorres",
+    "name": "Joaquin Torres Falcon II",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Ongoing:</b> The <b>On Reveal</b> abilities of your 1-Cost cards here happen twice.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/JoaquinTorres.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Jocasta",
+    "name": "Jocasta",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Activate:</b> Immediately Activate your other cards here. <i>(without using up their Activate abilities)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Jocasta.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Jubilee",
+    "name": "Jubilee",
+    "cost": 4,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Add the top card of your deck to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Jubilee.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Juggernaut",
+    "name": "Juggernaut",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Move away all enemy cards played here this turn. <i>(including unrevealed cards)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Juggernaut.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Kahhori",
+    "name": "Kahhori",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Each card in your hand gives one of your other cards in play +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Kahhori.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Kang",
+    "name": "Kang",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>Game Start:</b> Replace this with 4 Kangs with text from random cards that Cost 3 or more.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Kang.webp",
+    "collectible": true
+  },
+  {
+    "defId": "KarimaShapandar",
+    "name": "Omega Sentinel",
+    "cost": 4,
+    "power": 3,
+    "description": "<b>Activate:</b> Afflict the\nhighest-Power enemy card\nwith -7 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/KarimaShapandar.webp",
+    "collectible": true
+  },
+  {
+    "defId": "KateBishop",
+    "name": "Hawkeye Kate Bishop",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Add 2 Arrows to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/KateBishop.webp",
+    "collectible": true
+  },
+  {
+    "defId": "KaZar",
+    "name": "Ka-Zar",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>Ongoing:</b> Your 1-Cost cards have +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/KaZar.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Khonshu",
+    "name": "Khonshu",
+    "cost": 6,
+    "power": 5,
+    "description": "When discarded, returns in its next phase.\n<b>On Reveal:</b> Resurrect a card you discarded to another location with its Power set to 5.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Khonshu.webp",
+    "collectible": true
+  },
+  {
+    "defId": "KidOmega",
+    "name": "Kid Omega",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>Activate:</b> Destroy the next card you play this turn to gain its Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/KidOmega.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Killmonger",
+    "name": "Killmonger",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Destroy ALL\n1-Cost cards.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Killmonger.webp",
+    "collectible": true
+  },
+  {
+    "defId": "KingEitri",
+    "name": "King Eitri",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>Activate:</b> Draw a created card from your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/KingEitri.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Kingpin",
+    "name": "Kingpin",
+    "cost": 1,
+    "power": 2,
+    "description": "When an enemy card moves here, afflict it with -2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Kingpin.webp",
+    "collectible": true
+  },
+  {
+    "defId": "KittyPryde",
+    "name": "Kitty Pryde",
+    "cost": 1,
+    "power": 1,
+    "description": "When this returns to your hand,\n+1 Power. Returns at the start\nof each turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/KittyPryde.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Klaw",
+    "name": "Klaw",
+    "cost": 5,
+    "power": 4,
+    "description": "<b>Ongoing:</b> The location to the right has +7 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Klaw.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Knull",
+    "name": "Knull",
+    "cost": 6,
+    "power": 0,
+    "description": "<b>Ongoing:</b> Has the combined Power of all cards destroyed this game.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Knull.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Korg",
+    "name": "Korg",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Shuffle a Rock into your opponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Korg.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Kraven",
+    "name": "Kraven",
+    "cost": 2,
+    "power": 3,
+    "description": "When a card moves here, this gains +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Kraven.webp",
+    "collectible": true
+  },
+  {
+    "defId": "LadyDeathstrike",
+    "name": "Lady Deathstrike",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Destroy each card here with 3 or less Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/LadyDeathstrike.webp",
+    "collectible": true
+  },
+  {
+    "defId": "LadySif",
+    "name": "Lady Sif",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Discard the card that costs the most from your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/LadySif.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Lasher",
+    "name": "Lasher",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Activate:</b> Afflict an enemy card here with negative Power equal to this card's Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Lasher.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Laufey",
+    "name": "Laufey",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Steal 1 Power from each other card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Laufey.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Leader",
+    "name": "Leader",
+    "cost": 6,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Leader.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Leech",
+    "name": "Leech",
+    "cost": 4,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Remove the text from\n6-Cost cards in your opponent's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Leech.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Legion",
+    "name": "Legion",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Replace each other location with this one.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Legion.webp",
+    "collectible": true
+  },
+  {
+    "defId": "LivingTribunal",
+    "name": "The Living Tribunal",
+    "cost": 6,
+    "power": 9,
+    "description": "<b>Ongoing:</b> Split your total Power evenly among all locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/LivingTribunal.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Lizard",
+    "name": "Lizard",
+    "cost": 2,
+    "power": 6,
+    "description": "<b>Ongoing:</b> -4 Power if your opponent has 4 cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Lizard.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Lockjaw",
+    "name": "Lockjaw",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Activate:</b> After you play your next card, swap it with one from your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Lockjaw.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Loki",
+    "name": "Loki",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Replace your deck with your opponent's starting deck. Give those cards -1 Cost.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Loki.webp",
+    "collectible": true
+  },
+  {
+    "defId": "LukeCage",
+    "name": "Luke Cage",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Your cards can't have their Power reduced.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/LukeCage.webp",
+    "collectible": true
+  },
+  {
+    "defId": "LunaSnow",
+    "name": "Luna Snow",
+    "cost": 3,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Add an Ice Cube to each side of this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/LunaSnow.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MadameWeb",
+    "name": "Madame Web",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>Ongoing:</b> You can move one of your other cards away from here each turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MadameWeb.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MadThinker",
+    "name": "Mad Thinker",
+    "cost": 1,
+    "power": 2,
+    "description": "At the start of each turn <i>(after drawing)</i>, +2 Power if your\nhand is full.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MadThinker.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Magik",
+    "name": "Magik",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Replace this location with '{card.Location_Morphed.Name}'. Doesn't work\nafter turn {card.TurnNumber}.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Magik.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Magneto",
+    "name": "Magneto",
+    "cost": 6,
+    "power": 12,
+    "description": "<b>On Reveal:</b> Move all enemy\n3 and 4-Cost cards to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Magneto.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Makkari",
+    "name": "Makkari",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>End of Turn:</b> Runs from your hand to a random location. <i>(if possible)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Makkari.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Malekith",
+    "name": "Malekith",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Add a 1, 2, or 3-Cost card from your deck here, but don't reveal it until the game ends.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Malekith.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ManSpider",
+    "name": "Man-Spider",
+    "cost": 5,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Merge the\nlast card you played into this.\nWhen this merges, double its Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ManSpider.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ManThing",
+    "name": "Man-Thing",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>Ongoing:</b> 1, 2, and 3-Cost cards here have -2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ManThing.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mantis",
+    "name": "Mantis",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> If your opponent played any cards here this turn, copy one of them into your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mantis.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MariaHill",
+    "name": "Maria Hill",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add a random 2-Cost card to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MariaHill.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Martyr",
+    "name": "Martyr",
+    "cost": 1,
+    "power": 5,
+    "description": "At the end of the game, move to a location that LOSES you the\ngame. <i>(if possible)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Martyr.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MarvelBoy",
+    "name": "Marvel Boy",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>End of Turn:</b> Give 3 of your\n1-Cost cards +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MarvelBoy.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MasterMold",
+    "name": "Master Mold",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add 2 Sentinel to your opponent's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MasterMold.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Maximus",
+    "name": "Maximus",
+    "cost": 2,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Your opponent\ndraws 2 cards.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Maximus.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MBaku",
+    "name": "M'Baku",
+    "cost": 1,
+    "power": 3,
+    "description": "At the end of the game, this jumps from your deck to your lowest-Power location. <i>(that isn't full)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MBaku.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Medusa",
+    "name": "Medusa",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> If this is at the middle location, +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Medusa.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mercury",
+    "name": "Mercury",
+    "cost": 3,
+    "power": 4,
+    "description": "You can move this once.\n<b>Ongoing:</b> Enemy cards here\ncan't move.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mercury.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Merlin",
+    "name": "Merlin",
+    "cost": 2,
+    "power": 3,
+    "description": "At the start of each turn, add an Incantation to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Merlin.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Miek",
+    "name": "Miek",
+    "cost": 1,
+    "power": 1,
+    "description": "When you discard a card, this gains +1 Power and can move next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Miek.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MilesMorales",
+    "name": "Miles Morales Spider-Man",
+    "cost": 4,
+    "power": 6,
+    "description": "If a card moved last turn, this costs 1.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MilesMorales.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mirage",
+    "name": "Mirage",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Copy the character that costs the least from your opponent's hand into your hand. Give it +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mirage.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Misery",
+    "name": "Misery",
+    "cost": 4,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here, then destroy them.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Misery.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MistyKnight",
+    "name": "Misty Knight",
+    "cost": 1,
+    "power": 2,
+    "description": "<i>\"We've got to save this city.\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MistyKnight.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MobiusMMobius",
+    "name": "Mobius M. Mobius",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Your Costs can't be increased. Your opponent's Costs can't be reduced.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MobiusMMobius.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mockingbird",
+    "name": "Mockingbird",
+    "cost": 6,
+    "power": 9,
+    "description": "Costs 1 less for each of your created cards in play.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mockingbird.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Modok",
+    "name": "M.O.D.O.K.",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Discard your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Modok.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MoiraX",
+    "name": "Moira X",
+    "cost": 1,
+    "power": 2,
+    "description": "When this is destroyed, get a copy of your opening hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MoiraX.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mojo",
+    "name": "Mojo",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Ongoing:</b> If both sides here are full, +6 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mojo.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MoleMan",
+    "name": "Mole Man",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Banish the top card of your deck. Add 2 Rocks to your hand. Set their Power to the banished card’s Cost.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MoleMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MoonGirl",
+    "name": "Moon Girl",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Copy your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MoonGirl.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MoonKnight",
+    "name": "Moon Knight",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Discard an even-costed card from each player's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MoonKnight.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Moonstone",
+    "name": "Moonstone",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Ongoing:</b> Has the <b>Ongoing</b> effects of your 1, 2, and 3-Cost cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Moonstone.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Morbius",
+    "name": "Morbius",
+    "cost": 2,
+    "power": 0,
+    "description": "<b>Ongoing:</b> +2 Power for each time you discarded a card this game.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Morbius.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MorganLeFay",
+    "name": "Morgan le Fay",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Return all your discarded and destroyed cards to hand\nwith +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MorganLeFay.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Morph",
+    "name": "Morph",
+    "cost": 3,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Become a copy of a card in your opponent's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Morph.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MrFantastic",
+    "name": "Mister Fantastic",
+    "cost": 3,
+    "power": 1,
+    "description": "<b>Ongoing:</b> Adjacent locations have +3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MrFantastic.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MrFantasticFirstSteps",
+    "name": "Mister Fantastic First Steps",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>End of Turn:</b> Give a card in your hand -1 Cost or +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MrFantasticFirstSteps.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MrNegative",
+    "name": "Mister Negative",
+    "cost": 4,
+    "power": -1,
+    "description": "<b>On Reveal:</b> Swap the Power and Cost of all cards in your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MrNegative.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MrSinister",
+    "name": "Mister Sinister",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add a Sinister Clone here with the same Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MrSinister.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MsMarvel",
+    "name": "Ms. Marvel",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>Ongoing:</b> Your adjacent locations with 2+ cards and no repeated Costs have +5 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MsMarvel.webp",
+    "collectible": true
+  },
+  {
+    "defId": "MultipleMan",
+    "name": "Multiple Man",
+    "cost": 2,
+    "power": 3,
+    "description": "When this moves, add a copy to the old location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/MultipleMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mysterio",
+    "name": "Mysterio",
+    "cost": 2,
+    "power": 4,
+    "description": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mysterio.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Mystique",
+    "name": "Mystique",
+    "cost": 3,
+    "power": 1,
+    "description": "<b>On Reveal:</b> If the last card you played has an <b>Ongoing</b>, copy its text. <i>(if able)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Mystique.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nakia",
+    "name": "Nakia",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Give all cards in your hand +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nakia.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Namora",
+    "name": "Namora",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Give +5 Power to each of your cards alone at another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Namora.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Namor",
+    "name": "Namor",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Ongoing:</b> +5 Power if this is your only card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Namor.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nebula",
+    "name": "Nebula",
+    "cost": 1,
+    "power": 1,
+    "description": "Each turn your opponent doesn't play a card here, +2 Power. <i>(except the turn you play this)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nebula.webp",
+    "collectible": true
+  },
+  {
+    "defId": "NegasonicTeenageWarhead",
+    "name": "Negasonic Teenage Warhead",
+    "cost": 4,
+    "power": 5,
+    "description": "After an enemy character is played here, destroy it. <i>(once per game)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/NegasonicTeenageWarhead.webp",
+    "collectible": true
+  },
+  {
+    "defId": "NicholasScratch",
+    "name": "Nicholas Scratch",
+    "cost": 1,
+    "power": 2,
+    "description": "After you play a skill, +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/NicholasScratch.webp",
+    "collectible": true
+  },
+  {
+    "defId": "NickFury",
+    "name": "Nick Fury",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Add 3 random\n6-Cost cards to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/NickFury.webp",
+    "collectible": true
+  },
+  {
+    "defId": "NicoMinoru",
+    "name": "Nico Minoru",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> After you play your next card, cast a spell. <i>(The spell\nchanges each turn.)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/NicoMinoru.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nightcrawler",
+    "name": "Nightcrawler",
+    "cost": 1,
+    "power": 2,
+    "description": "You can move this once.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nightcrawler.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nightmare",
+    "name": "Nightmare",
+    "cost": 3,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Replace the text of each card in your hand with text from a random card of the same Cost.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nightmare.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nimrod",
+    "name": "Nimrod",
+    "cost": 5,
+    "power": 6,
+    "description": "When this is destroyed, add a copy to each other location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nimrod.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nocturne",
+    "name": "Nocturne",
+    "cost": 3,
+    "power": 4,
+    "description": "You can move this once. When this moves, replace its location with a random new one.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nocturne.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Nova",
+    "name": "Nova",
+    "cost": 1,
+    "power": 1,
+    "description": "When this is destroyed, give your cards +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Nova.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Odin",
+    "name": "Odin",
+    "cost": 6,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Repeat the <b>On Reveal</b> abilities of your other cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Odin.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Okoye",
+    "name": "Okoye",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Give every card in your deck +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Okoye.webp",
+    "collectible": true
+  },
+  {
+    "defId": "OmegaRed",
+    "name": "Omega Red",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Ongoing:</b> If you're winning here, +3 Power to other locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/OmegaRed.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Onslaught",
+    "name": "Onslaught",
+    "cost": 6,
+    "power": 8,
+    "description": "<b>Ongoing:</b> Double your other <b>Ongoing</b> effects here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Onslaught.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Orka",
+    "name": "Orka",
+    "cost": 6,
+    "power": 11,
+    "description": "<b>Ongoing:</b> +5 Power if this is your only card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Orka.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Patriot",
+    "name": "Patriot",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Your cards with no abilities have +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Patriot.webp",
+    "collectible": true
+  },
+  {
+    "defId": "PeniParker",
+    "name": "Peni Parker",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Add SP//dr to your hand.\nWhen this merges, you get\n+1 Energy next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/PeniParker.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Phastos",
+    "name": "Phastos",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Give each card in your deck -1 Cost or +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Phastos.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Pixie",
+    "name": "Pixie",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Shuffle the base Costs\nof all cards in your deck\nthat started there.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Pixie.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Polaris",
+    "name": "Polaris",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Move an enemy\n1 or 2-Cost card to this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Polaris.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Prodigy",
+    "name": "Prodigy",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> If this is in the back row, copy the text of the card in front of it.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Prodigy.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ProfessorX",
+    "name": "Professor X",
+    "cost": 5,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Moving is the only way to add or remove a character from here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ProfessorX.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ProximaMidnight",
+    "name": "Proxima Midnight",
+    "cost": 4,
+    "power": 7,
+    "description": "When this is discarded, jumps to your lowest-Power location. <i>(that isn't full)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ProximaMidnight.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Psylocke",
+    "name": "Psylocke",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Next turn, you get +1 Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Psylocke.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Punisher",
+    "name": "Punisher",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> +1 Power for each enemy card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Punisher.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Quake",
+    "name": "Quake",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Swap the positions of the other two locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Quake.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Quicksilver",
+    "name": "Quicksilver",
+    "cost": 1,
+    "power": 2,
+    "description": "Starts in your opening hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Quicksilver.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Quinjet",
+    "name": "Quinjet",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Your created cards cost 1 less. <i>(minimum 1)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Quinjet.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RavonnaRenslayer",
+    "name": "Ravonna Renslayer",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Your cards with 1 or less Power cost 1 less. <i>(minimum 1)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RavonnaRenslayer.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RedGuardian",
+    "name": "Red Guardian",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Afflict the lowest-Power enemy card here with -2 Power and remove its text.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RedGuardian.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RedHulk",
+    "name": "Red Hulk",
+    "cost": 6,
+    "power": 10,
+    "description": "<b>End of Turn:</b> If your opponent has unspent Energy, +3 Power.\n<i>(if in hand or in play)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RedHulk.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RedShift",
+    "name": "Red Shift",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Discard the leftmost card in your hand to add a random card with the same Cost to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RedShift.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RedSkull",
+    "name": "Red Skull",
+    "cost": 5,
+    "power": 14,
+    "description": "<b>Ongoing:</b> Enemy cards here have +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RedSkull.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Redwing",
+    "name": "Redwing",
+    "cost": 3,
+    "power": 5,
+    "description": "The first time this moves, add a card from your hand to the old location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Redwing.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Rescue",
+    "name": "Rescue",
+    "cost": 4,
+    "power": 4,
+    "description": "<b>On Reveal:</b> If you play a card at this location next turn, +5 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Rescue.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Rhino",
+    "name": "Rhino",
+    "cost": 2,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Add a Rock to your side of this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Rhino.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RocketAndGroot",
+    "name": "Rocket and Groot",
+    "cost": 3,
+    "power": 2,
+    "description": "You can move this once.\nAfter your opponent plays a card here, steal 1 Power from it.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RocketAndGroot.webp",
+    "collectible": true
+  },
+  {
+    "defId": "RocketRaccoon",
+    "name": "Rocket Raccoon",
+    "cost": 1,
+    "power": 1,
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/RocketRaccoon.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Rockslide",
+    "name": "Rockslide",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Shuffle 2 Rocks into your opponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Rockslide.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Rogue",
+    "name": "Rogue",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Ongoing</b> card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Rogue.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Ronan",
+    "name": "Ronan the Accuser",
+    "cost": 5,
+    "power": 5,
+    "description": "<b>Ongoing:</b> +2 Power for each card in your opponent's hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Ronan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sabretooth",
+    "name": "Sabretooth",
+    "cost": 3,
+    "power": 5,
+    "description": "When this is destroyed, return it to your hand. It costs 0.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sabretooth.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sage",
+    "name": "Sage",
+    "cost": 3,
+    "power": 0,
+    "description": "<b>On Reveal:</b> +2 Power for each different Power among all\nother cards here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sage.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SamWilson",
+    "name": "Sam Wilson Captain America",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>Game Start:</b> Add Cap's Shield to a random location.\n<b>Ongoing:</b> You can move Cap's Shield.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SamWilson.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sandman",
+    "name": "Sandman",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Next turn, cards cost 1 more. <i>(maximum 6)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sandman.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sasquatch",
+    "name": "Sasquatch",
+    "cost": 6,
+    "power": 10,
+    "description": "Costs 1 less for each card you played last turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sasquatch.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sauron",
+    "name": "Sauron",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Remove the abilities from all <b>Ongoing</b> cards in your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sauron.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ScarletSpider",
+    "name": "Scarlet Spider",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>Activate:</b> Add an exact clone of this to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ScarletSpider.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ScarletWitch",
+    "name": "Scarlet Witch",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Replace this location with a new one.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ScarletWitch.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Scorn",
+    "name": "Scorn",
+    "cost": 1,
+    "power": 2,
+    "description": "When you discard this, put it back and give +2 Power to itself and\none of your cards in play.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Scorn.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Scorpion",
+    "name": "Scorpion",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Afflict cards in your opponent's hand with -1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Scorpion.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Scream",
+    "name": "Scream",
+    "cost": 2,
+    "power": 1,
+    "description": "When an enemy card moves, steal 2 Power from it. <i>(once per turn)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Scream.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SebastianShaw",
+    "name": "Sebastian Shaw",
+    "cost": 3,
+    "power": 4,
+    "description": "When this permanently gains Power, gain +2 more Power.\n<i>(wherever this is)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SebastianShaw.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Selene",
+    "name": "Selene",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Afflict the lowest-Power card in each player's hand\nwith -3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Selene.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sentinel",
+    "name": "Sentinel",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Add another Sentinel to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sentinel.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sentry",
+    "name": "Sentry",
+    "cost": 4,
+    "power": 9,
+    "description": "You can't play this at the right location.\n<b>On Reveal:</b> Add a -9 Power Void to the right location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sentry.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sera",
+    "name": "Sera",
+    "cost": 5,
+    "power": 5,
+    "description": "<b>Ongoing:</b> Cards in your hand cost 1 less. <i>(minimum 1)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sera.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sersi",
+    "name": "Sersi",
+    "cost": 5,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Transform your other characters here into random ones that\ncost 1 more. <i>(if possible)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sersi.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ShadowKing",
+    "name": "Shadow King",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Reset all cards here to their original Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ShadowKing.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ShangChi",
+    "name": "Shang-Chi",
+    "cost": 4,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Destroy an enemy card here that has 10 or more Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ShangChi.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Shanna",
+    "name": "Shanna",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Add a random\n1-Cost card to each location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Shanna.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SheHulk",
+    "name": "She-Hulk",
+    "cost": 6,
+    "power": 10,
+    "description": "Costs 1 less for each unspent Energy last turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SheHulk.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Shocker",
+    "name": "Shocker",
+    "cost": 2,
+    "power": 3,
+    "description": "<i>\"I'm gonna blast you!\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Shocker.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Shuri",
+    "name": "Shuri",
+    "cost": 4,
+    "power": 3,
+    "description": "<b>On Reveal:</b> If you play your next card at this location, double its Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Shuri.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Silk",
+    "name": "Silk",
+    "cost": 2,
+    "power": 5,
+    "description": "After ANY card is played here, move this to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Silk.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SilverSable",
+    "name": "Silver Sable",
+    "cost": 1,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Steal 2 Power from the top card of your opponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SilverSable.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SilverSamurai",
+    "name": "Silver Samurai",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Each player discards the lowest-Power card from their hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SilverSamurai.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SilverSurfer",
+    "name": "Silver Surfer",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Give your other\n3-Cost cards +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SilverSurfer.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SilverSurferFirstSteps",
+    "name": "Silver Surfer First Steps",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>End of Turn:</b> If you're winning this location with an <b>On Reveal</b> card, copy its text.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SilverSurferFirstSteps.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Skaar",
+    "name": "Skaar",
+    "cost": 7,
+    "power": 12,
+    "description": "Costs 2 less for each of your cards that has 10 or more Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Skaar.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Snowguard",
+    "name": "Snowguard",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add the Hawk and Bear auroras to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Snowguard.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sparky",
+    "name": "Sparky",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>Activate:</b> Give your card that last moved +3 Power and move it\nback to its previous location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sparky.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Spectrum",
+    "name": "Spectrum",
+    "cost": 6,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Give your <b>Ongoing</b> cards +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Spectrum.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Speed",
+    "name": "Speed",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> +1 Power for each turn in which you spent all your Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Speed.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SpiderHam",
+    "name": "Spider-Ham",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>Activate:</b> Replace the text of a random character in your opponent's hand with <i>\"oink!\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SpiderHam.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SpiderMan2099",
+    "name": "Spider-Man 2099",
+    "cost": 5,
+    "power": 9,
+    "description": "The first time this moves to any location, destroy an enemy card there.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SpiderMan2099.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SpiderMan",
+    "name": "Spider-Man",
+    "cost": 2,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Move to another location and pull an enemy card from\nhere to there.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SpiderMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SpiderPunk",
+    "name": "Spider-Punk",
+    "cost": 3,
+    "power": 3,
+    "description": "You can move this once.\nWhen this moves to a location, steal 2 Power from the highest-Power enemy there.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SpiderPunk.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SpiderWoman",
+    "name": "Spider-Woman",
+    "cost": 5,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Afflict all enemy cards here with -1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SpiderWoman.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SquirrelGirl",
+    "name": "Squirrel Girl",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add a 1-Power Squirrel to each other location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SquirrelGirl.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Starbrand",
+    "name": "Starbrand",
+    "cost": 3,
+    "power": 10,
+    "description": "<b>Ongoing:</b> Your opponent has +3 Power at each other location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Starbrand.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Stardust",
+    "name": "Stardust",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Ongoing:</b> Cards can’t be added to locations except by playing\nor moving them.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Stardust.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Starlord",
+    "name": "Star-Lord",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> If your opponent played a card here this turn, +4 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Starlord.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Stature",
+    "name": "Stature",
+    "cost": 5,
+    "power": 7,
+    "description": "Costs 1 if your opponent discarded a card this game.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Stature.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Stegron",
+    "name": "Stegron",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>On Reveal:</b> Move an enemy card here one location to the right.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Stegron.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Storm",
+    "name": "Storm",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Flood this location. Next turn is the last turn cards can\nbe played here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Storm.webp",
+    "collectible": true
+  },
+  {
+    "defId": "StrangeSupreme",
+    "name": "Strange Supreme",
+    "cost": 2,
+    "power": 1,
+    "description": "Gains +2 Power from merging.\n<b>End of Turn:</b> Merge one of your created cards into this.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/StrangeSupreme.webp",
+    "collectible": true
+  },
+  {
+    "defId": "StrongGuy",
+    "name": "Strong Guy",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>Ongoing:</b> +6 Power if your hand has 1 or fewer cards.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/StrongGuy.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Sunspot",
+    "name": "Sunspot",
+    "cost": 1,
+    "power": 0,
+    "description": "<b>End of Turn:</b> Gain +1 Power for each unspent Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Sunspot.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SuperAdaptoid",
+    "name": "Super-Adaptoid",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Steal the text from an enemy <b>Activate</b> card here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SuperAdaptoid.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Supergiant",
+    "name": "Supergiant",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> All cards played next turn don't reveal until the game ends.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Supergiant.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SuperiorSpiderMan",
+    "name": "Superior Spider-Man",
+    "cost": 3,
+    "power": 4,
+    "description": "At the start of each turn, you get +1 Energy if you have any cards with increased Power in play.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SuperiorSpiderMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SuperSkrull",
+    "name": "Super-Skrull",
+    "cost": 4,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Has the <b>Ongoing</b> effects of all enemy cards.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SuperSkrull.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Surge",
+    "name": "Surge",
+    "cost": 2,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Surge.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Surtur",
+    "name": "Surtur",
+    "cost": 3,
+    "power": 5,
+    "description": "After you play a card with 10 or more Power, this gains +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Surtur.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Swarm",
+    "name": "Swarm",
+    "cost": 2,
+    "power": 3,
+    "description": "When you discard this, add two copies that cost 0 to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Swarm.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SwordMaster",
+    "name": "Sword Master",
+    "cost": 3,
+    "power": 6,
+    "description": "<b>On Reveal:</b> Discard an odd-costed card from your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SwordMaster.webp",
+    "collectible": true
+  },
+  {
+    "defId": "SymbioteSpiderMan",
+    "name": "Symbiote Spider-Man",
+    "cost": 4,
+    "power": 7,
+    "description": "<b>Activate:</b> Merge your lowest-Cost card here into this. Copy its text like it just revealed.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/SymbioteSpiderMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Taskmaster",
+    "name": "Taskmaster",
+    "cost": 6,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Set this card’s Power equal to that of the last card you played. <i>(if able)</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Taskmaster.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Terrax",
+    "name": "Terrax the Tamer",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> For each location, shuffle a Rock into the losing player's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Terrax.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ThaddeusRoss",
+    "name": "Thaddeus Ross",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>End of Turn:</b> If your opponent has unspent Energy, draw a card with\n10 or more Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ThaddeusRoss.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Thanos",
+    "name": "Thanos",
+    "cost": 6,
+    "power": 12,
+    "description": "<b>Game Start:</b> Shuffle the six Infinity Stones into your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Thanos.webp",
+    "collectible": true
+  },
+  {
+    "defId": "TheAncientOne",
+    "name": "The Ancient One",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Add Tao Mandala to your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/TheAncientOne.webp",
+    "collectible": true
+  },
+  {
+    "defId": "TheCollector",
+    "name": "The Collector",
+    "cost": 2,
+    "power": 2,
+    "description": "When a card enters your hand from anywhere <i>(except your deck)</i>,\n+1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/TheCollector.webp",
+    "collectible": true
+  },
+  {
+    "defId": "TheHunger",
+    "name": "The Hunger",
+    "cost": 1,
+    "power": 0,
+    "description": "<b>On Reveal:</b> <b>Horde +3</b>.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/TheHunger.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Thena",
+    "name": "Thena",
+    "cost": 2,
+    "power": 0,
+    "description": "<b>End of Turn:</b> +3 Power if you played <i>(exactly)</i> 2 cards.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Thena.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ThePhoenixForce",
+    "name": "Phoenix Force",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>On Reveal:</b> Revive one of your destroyed cards and merge this into it. That card can move each turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ThePhoenixForce.webp",
+    "collectible": true
+  },
+  {
+    "defId": "TheThing",
+    "name": "The Thing",
+    "cost": 4,
+    "power": 7,
+    "description": "<i>\"It's clobberin' time!\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/TheThing.webp",
+    "collectible": true
+  },
+  {
+    "defId": "TheThingFirstSteps",
+    "name": "The Thing First Steps",
+    "cost": 5,
+    "power": 6,
+    "description": "<b>End of Turn:</b> +2 Power. Once per game, if your side here is full, destroy an enemy card here with less Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/TheThingFirstSteps.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Thor",
+    "name": "Thor",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Shuffle Mjolnir into your deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Thor.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Titania",
+    "name": "Titania",
+    "cost": 1,
+    "power": 5,
+    "description": "After ANY card is played here, this card switches sides.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Titania.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Topaz",
+    "name": "Topaz",
+    "cost": 3,
+    "power": 5,
+    "description": "After you play a card here, move it to the middle location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Topaz.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ToxieDoxie",
+    "name": "Toxie Doxie",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Give 2 characters in your hand +2 Power. You can't play them next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ToxieDoxie.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Toxin",
+    "name": "Toxin",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Return your other cards here to your hand. +2 Power\nfor each returned.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Toxin.webp",
+    "collectible": true
+  },
+  {
+    "defId": "TyphoidMary",
+    "name": "Typhoid Mary",
+    "cost": 4,
+    "power": 10,
+    "description": "<b>Ongoing:</b> Your other cards\nhere have -2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/TyphoidMary.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Uatu",
+    "name": "Uatu the Watcher",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>Game Start:</b> You can see the unrevealed locations.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Uatu.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Ultron",
+    "name": "Ultron",
+    "cost": 6,
+    "power": 8,
+    "description": "<b>On Reveal:</b> Deploy four 2-Power Drones to each other location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Ultron.webp",
+    "collectible": true
+  },
+  {
+    "defId": "UncleBen",
+    "name": "Uncle Ben",
+    "cost": 1,
+    "power": 2,
+    "description": "When this card is destroyed, replace it with Spider-Man.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/UncleBen.webp",
+    "collectible": true
+  },
+  {
+    "defId": "USAgent",
+    "name": "U.S. Agent",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Ongoing:</b> 4, 5, and 6-Cost cards here have -3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/USAgent.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Valentina",
+    "name": "Valentina",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Add a random 6-Cost card to your hand. Give it -2 Cost\nand -2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Valentina.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Valkyrie",
+    "name": "Valkyrie",
+    "cost": 5,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Set ALL cards here to 3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Valkyrie.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Venom",
+    "name": "Venom",
+    "cost": 3,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Destroy your other cards here. Add their Power to this card.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Venom.webp",
+    "collectible": true
+  },
+  {
+    "defId": "VictoriaHand",
+    "name": "Victoria Hand",
+    "cost": 2,
+    "power": 3,
+    "description": "<b>Ongoing:</b> Your cards that were created in your hand have +2 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/VictoriaHand.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Viper",
+    "name": "Viper",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> One of your other cards here with the lowest Power switches sides.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Viper.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Vision",
+    "name": "Vision",
+    "cost": 5,
+    "power": 9,
+    "description": "You can move this each turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Vision.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Viv",
+    "name": "Viv Vision",
+    "cost": 3,
+    "power": 3,
+    "description": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Viv.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Vulture",
+    "name": "Vulture",
+    "cost": 1,
+    "power": 2,
+    "description": "When this card moves,\n+3 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Vulture.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Warlock",
+    "name": "Warlock",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>Activate:</b> For each unspent Energy, give a card in your hand -1 Cost.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Warlock.webp",
+    "collectible": true
+  },
+  {
+    "defId": "WarMachine",
+    "name": "War Machine",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>Ongoing:</b> Nothing can stop you from playing cards anywhere.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/WarMachine.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Warpath",
+    "name": "Warpath",
+    "cost": 4,
+    "power": 5,
+    "description": "<b>Ongoing:</b> If any of your locations are empty, +5 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Warpath.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Wasp",
+    "name": "Wasp",
+    "cost": 0,
+    "power": 1,
+    "description": "<i>\"My secret power is that I get things done.\"</i>",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Wasp.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Wave",
+    "name": "Wave",
+    "cost": 3,
+    "power": 5,
+    "description": "<b>On Reveal:</b> All cards cost a maximum of 4 until the end\nof next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Wave.webp",
+    "collectible": true
+  },
+  {
+    "defId": "WebSling",
+    "name": "Web Sling",
+    "cost": 1,
+    "power": 0,
+    "description": "<b>On Reveal:</b> Next turn, you can move one of your cards away from here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/WebSling.webp",
+    "collectible": true
+  },
+  {
+    "defId": "WerewolfByNight",
+    "name": "Werewolf By Night",
+    "cost": 3,
+    "power": 3,
+    "description": "After you play a card, move there to gain +2 Power if it has an <b>On Reveal</b>.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/WerewolfByNight.webp",
+    "collectible": true
+  },
+  {
+    "defId": "WhiteQueen",
+    "name": "White Queen",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> Copy the card that costs the most from your opponent's hand into your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/WhiteQueen.webp",
+    "collectible": true
+  },
+  {
+    "defId": "WhiteTiger",
+    "name": "White Tiger",
+    "cost": 5,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Add a 9-Power Tiger to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/WhiteTiger.webp",
+    "collectible": true
+  },
+  {
+    "defId": "WhiteWidow",
+    "name": "White Widow",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Add a Widow's Kiss to your opponent's side of this location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/WhiteWidow.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Wiccan",
+    "name": "Wiccan",
+    "cost": 4,
+    "power": 6,
+    "description": "<b>On Reveal:</b> If you've spent all your Energy on previous turns, +2 Max Energy.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Wiccan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Wolfsbane",
+    "name": "Wolfsbane",
+    "cost": 3,
+    "power": 2,
+    "description": "<b>On Reveal:</b> +2 Power for each other card you have here.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Wolfsbane.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Wolverine",
+    "name": "Wolverine",
+    "cost": 2,
+    "power": 3,
+    "description": "When this is discarded or destroyed, regenerate it with +2 Power at a random location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Wolverine.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Wong",
+    "name": "Wong",
+    "cost": 4,
+    "power": 2,
+    "description": "<b>Ongoing:</b> Your <b>On Reveal</b> abilities here happen twice.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Wong.webp",
+    "collectible": true
+  },
+  {
+    "defId": "X23",
+    "name": "X-23",
+    "cost": 1,
+    "power": 1,
+    "description": "When this is discarded or destroyed, regenerate it at a random location and you get +1 Energy next turn.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/X23.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Xorn",
+    "name": "Xorn",
+    "cost": 2,
+    "power": 3,
+    "description": "After ANY 3 or 4-Cost card is played here, move it to another location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Xorn.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Yellowjacket",
+    "name": "Yellowjacket",
+    "cost": 0,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Afflict your other cards here with -1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Yellowjacket.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Yondu",
+    "name": "Yondu",
+    "cost": 1,
+    "power": 2,
+    "description": "<b>On Reveal:</b> Banish the card that costs the least in your\nopponent's deck.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Yondu.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Zabu",
+    "name": "Zabu",
+    "cost": 1,
+    "power": 1,
+    "description": "<b>On Reveal:</b> Give each 4-Cost card in your deck -1 Cost.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Zabu.webp",
+    "collectible": true
+  },
+  {
+    "defId": "Zero",
+    "name": "Zero",
+    "cost": 1,
+    "power": 3,
+    "description": "<b>On Reveal:</b> Remove the abilities on the next card you play.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/Zero.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombieCaptainMarvel",
+    "name": "Zombie Captain Marvel",
+    "cost": 4,
+    "power": 4,
+    "description": "<b>Activate:</b> Destroy your other cards here to get +3 Power for each. Move to a location you're losing.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombieCaptainMarvel.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombieGalacti",
+    "name": "Zombie Galacti",
+    "cost": 7,
+    "power": 4,
+    "description": "<b>Game Start:</b> Choose 6 other cards in your deck.\n<b>On Reveal:</b> Transform those cards\ninto copies of this.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombieGalacti.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombieGiantMan",
+    "name": "Zombie Giant-Man",
+    "cost": 5,
+    "power": 4,
+    "description": "<b>On Reveal:</b> <b>Horde +2</b>, then this gains Power equal to your Zombie Horde.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombieGiantMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombieMisterFantastic",
+    "name": "Zombie Mister Fantastic",
+    "cost": 2,
+    "power": 2,
+    "description": "<b>On Reveal:</b> <b>Horde +2</b>.\n<b>Activate:</b> Give 4 of your created cards +1 Power.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombieMisterFantastic.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombiePowerMan",
+    "name": "Zombie Power Man",
+    "cost": 2,
+    "power": 4,
+    "description": "<b>End of Turn:</b> If you're winning here, discard the leftmost card\nfrom your hand.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombiePowerMan.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombieScarletWitch",
+    "name": "Zombie Scarlet Witch",
+    "cost": 3,
+    "power": 4,
+    "description": "After you play a card here, <b>Horde +2</b>.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombieScarletWitch.webp",
+    "collectible": true
+  },
+  {
+    "defId": "ZombieSentry",
+    "name": "Zombie Sentry",
+    "cost": 3,
+    "power": 4,
+    "description": "<b>On Reveal:</b> <b>Horde +1</b> for each of your cards at the right location.",
+    "image": "https://snapjson.untapped.gg/art/render/framebreak/common/256/ZombieSentry.webp",
+    "collectible": true
+  }
+]
