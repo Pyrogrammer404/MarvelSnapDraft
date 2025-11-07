@@ -188,7 +188,15 @@ textarea {
   border: 2px solid #00aaff;
   border-radius: 20px;
   padding: 20px;
-  width: 400px;
+  width: 90%;
+  max-width: 1000px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .fade-in {
@@ -518,6 +526,49 @@ textarea {
 }
 
 .deck-card small {
+  color: #8cd4ff;
+  font-size: 0.8rem;
+}
+
+/* === FINAL DECK MODAL GRID === */
+#finalDeck.deck-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+#finalDeck .deck-card {
+  flex: 0 0 120px;
+  background: rgba(0, 15, 40, 0.95);
+  border: 2px solid #0077ff;
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#finalDeck .deck-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px rgba(0, 162, 255, 0.4);
+}
+
+#finalDeck .deck-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#finalDeck .deck-card span {
+  display: block;
+  font-weight: 600;
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+#finalDeck .deck-card small {
   color: #8cd4ff;
   font-size: 0.8rem;
 }
