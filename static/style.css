@@ -1,5 +1,5 @@
 /* =====================
-   Marvel Snap Draft Theme
+   Marvel Snap Draft - Global Theme
    ===================== */
 
 :root {
@@ -14,7 +14,7 @@
   --danger: #ff453a;
 }
 
-/* Body and Layout */
+/* Global Layout */
 body {
   font-family: "Poppins", sans-serif;
   background: radial-gradient(circle at top, #1c1f4a 0%, #0c0f2b 100%);
@@ -35,7 +35,7 @@ body {
 }
 
 .title {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   margin-bottom: 10px;
   color: var(--accent-blue);
   text-shadow: 0 0 15px rgba(45, 109, 246, 0.6);
@@ -44,9 +44,43 @@ body {
 .subtitle {
   font-size: 1.1rem;
   color: var(--text-muted);
+  margin-bottom: 25px;
 }
 
-/* Ban Section */
+/* =====================
+   Main Menu
+   ===================== */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu button {
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  width: 250px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(45, 109, 246, 0.4);
+}
+
+.menu button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(168, 109, 242, 0.7);
+}
+
+/* =====================
+   Ban Section
+   ===================== */
+
 .ban-section {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -78,7 +112,10 @@ body {
   background: var(--accent-purple);
 }
 
-/* Card Grid */
+/* =====================
+   Card Grid
+   ===================== */
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -104,7 +141,7 @@ body {
 
 .card img {
   width: 100%;
-  height: 320px;
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -153,7 +190,10 @@ body {
   background-color: #e33d2f;
 }
 
-/* Deck Section */
+/* =====================
+   Deck Section
+   ===================== */
+
 .deck-section {
   margin-top: 25px;
   text-align: center;
@@ -188,7 +228,7 @@ body {
 
 .deck-card img {
   width: 100%;
-  height: 160px;
+  height: 150px;
   border-radius: 6px;
   object-fit: cover;
 }
@@ -204,17 +244,21 @@ body {
   color: var(--text-muted);
 }
 
-/* Modal */
+/* =====================
+   Modal
+   ===================== */
+
 .modal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(12, 15, 43, 0.85);
+  background: rgba(12, 15, 43, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
 
 .modal.hidden {
@@ -226,7 +270,7 @@ body {
   padding: 30px;
   border-radius: 12px;
   text-align: center;
-  width: 80%;
+  width: 85%;
   max-width: 700px;
   box-shadow: 0 0 25px rgba(45, 109, 246, 0.4);
 }
@@ -240,7 +284,7 @@ body {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .modal-buttons button {
@@ -281,7 +325,10 @@ body {
   padding: 10px;
 }
 
-/* Restart button */
+/* =====================
+   Restart Button
+   ===================== */
+
 .restart-btn {
   margin-top: 25px;
   background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
@@ -299,7 +346,10 @@ body {
   box-shadow: 0 0 15px rgba(45, 109, 246, 0.6);
 }
 
-/* Footer */
+/* =====================
+   Footer
+   ===================== */
+
 .footer {
   margin-top: auto;
   padding: 15px 0;
@@ -321,12 +371,12 @@ body {
   100% { transform: scale(1); opacity: 0.9; }
 }
 
-/* Hidden Utility */
-.hidden {
-  display: none;
-}
+/* =====================
+   Animations
+   ===================== */
 
-/* Smooth fade-in */
+.hidden { display: none; }
+
 .fade-in {
   animation: fadeIn 0.6s ease-in-out;
 }
@@ -336,15 +386,13 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Mobile tweaks */
+/* =====================
+   Mobile tweaks
+   ===================== */
+
 @media (max-width: 768px) {
-  .card img {
-    height: 250px;
-  }
-  .deck-card {
-    width: 100px;
-  }
-  .deck-card img {
-    height: 130px;
-  }
+  .card img { height: 250px; }
+  .deck-card { width: 100px; }
+  .deck-card img { height: 120px; }
+  .menu button { width: 200px; font-size: 1rem; }
 }
