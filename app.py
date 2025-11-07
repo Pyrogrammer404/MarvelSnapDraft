@@ -67,6 +67,11 @@ def save_history(deck):
 
 
 # --- Routes ---
+
+@app.route("/static/cards_enriched.json")
+def serve_cards_json():
+    return send_from_directory(".", "cards_enriched.json")
+
 @app.route("/")
 def main_menu():
     return render_template("index.html")
